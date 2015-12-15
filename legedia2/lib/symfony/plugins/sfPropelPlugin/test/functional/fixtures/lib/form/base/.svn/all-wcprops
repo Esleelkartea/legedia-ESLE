@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base
+END
+BaseAuthorArticleForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseAuthorArticleForm.class.php
+END
+BaseAttachmentForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseAttachmentForm.class.php
+END
+BaseBookForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseBookForm.class.php
+END
+BaseCategoryForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseCategoryForm.class.php
+END
+BaseMovieForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseMovieForm.class.php
+END
+BaseMovieI18nForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseMovieI18nForm.class.php
+END
+BaseProductForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseProductForm.class.php
+END
+BaseProductI18nForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseProductI18nForm.class.php
+END
+BaseAuthorForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseAuthorForm.class.php
+END
+BaseArticleForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/form/base/BaseArticleForm.class.php
+END

@@ -1,0 +1,43 @@
+10
+
+dir
+70
+http://serv107/repo/legedia/lib/symfony/task/generator/skeleton/app/app
+http://serv107/repo/legedia
+
+
+
+2009-08-06T14:22:18.361755Z
+22
+kam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cecd30a9-d62e-4093-b7f9-af66687f38ca
+
+i18n
+dir
+
+config
+dir
+
+lib
+dir
+
+modules
+dir
+
+templates
+dir
+

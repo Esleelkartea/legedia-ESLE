@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/22/lib/symfony/view
+END
+sfPHPView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/1/lib/symfony/view/sfPHPView.class.php
+END
+sfPartialView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/8/lib/symfony/view/sfPartialView.class.php
+END
+sfViewCacheManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/8/lib/symfony/view/sfViewCacheManager.class.php
+END
+sfViewParameterHolder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/view/sfViewParameterHolder.class.php
+END
+sfView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/lib/symfony/view/sfView.class.php
+END

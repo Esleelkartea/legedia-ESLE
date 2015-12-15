@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config
+END
+propel.ini
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config/propel.ini
+END
+schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config/schema.yml
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config/databases.yml
+END
+ProjectConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config/ProjectConfiguration.class.php
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/config/properties.ini
+END

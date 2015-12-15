@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data/sql
+END
+sqldb.map
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data/sql/sqldb.map
+END
+lib.model.schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data/sql/lib.model.schema.sql
+END

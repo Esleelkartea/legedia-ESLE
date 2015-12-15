@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Iterator
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Iterator/Array.php
+END
+MySQLResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Iterator/MySQLResult.php
+END

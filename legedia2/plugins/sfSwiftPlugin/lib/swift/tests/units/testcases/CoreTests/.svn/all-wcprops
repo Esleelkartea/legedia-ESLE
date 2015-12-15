@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests
+END
+TestOfAddress.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfAddress.php
+END
+TestOfSwiftCore.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfSwiftCore.php
+END
+TestOfDefaultLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfDefaultLog.php
+END
+TestOfArrayIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfArrayIterator.php
+END
+TestOfEasySwift.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfEasySwift.php
+END
+TestOfRecipientList.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfRecipientList.php
+END
+TestOfFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CoreTests/TestOfFile.php
+END

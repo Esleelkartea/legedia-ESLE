@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/widget
+END
+sfWidgetFormPropelSelectMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/widget/sfWidgetFormPropelSelectMany.class.php
+END
+sfWidgetFormPropelChoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/widget/sfWidgetFormPropelChoice.class.php
+END
+sfWidgetFormPropelChoiceMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/widget/sfWidgetFormPropelChoiceMany.class.php
+END
+sfWidgetFormPropelSelect.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/widget/sfWidgetFormPropelSelect.class.php
+END

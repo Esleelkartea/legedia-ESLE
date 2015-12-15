@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/67/lib/symfony/config
+END
+sfAutoloadConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfAutoloadConfigHandler.class.php
+END
+sfViewConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfViewConfigHandler.class.php
+END
+sfProjectConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/67/lib/symfony/config/sfProjectConfiguration.class.php
+END
+sfSimpleYamlConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfSimpleYamlConfigHandler.class.php
+END
+sfConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfConfigHandler.class.php
+END
+sfDefineEnvironmentConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfDefineEnvironmentConfigHandler.class.php
+END
+sfConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfConfig.class.php
+END
+sfLoader.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfLoader.class.php
+END
+sfRootConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfRootConfigHandler.class.php
+END
+sfFilterConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfFilterConfigHandler.class.php
+END
+sfGeneratorConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfGeneratorConfigHandler.class.php
+END
+sfRoutingConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfRoutingConfigHandler.class.php
+END
+sfCompileConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfCompileConfigHandler.class.php
+END
+sfPluginConfigurationGeneric.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfPluginConfigurationGeneric.class.php
+END
+sfYamlConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/67/lib/symfony/config/sfYamlConfigHandler.class.php
+END
+sfPluginConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/67/lib/symfony/config/sfPluginConfiguration.class.php
+END
+sfCacheConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfCacheConfigHandler.class.php
+END
+sfDatabaseConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfDatabaseConfigHandler.class.php
+END
+sfConfigCache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfConfigCache.class.php
+END
+sfFactoryConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfFactoryConfigHandler.class.php
+END
+sfApplicationConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/6/lib/symfony/config/sfApplicationConfiguration.class.php
+END
+sfSecurityConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/lib/symfony/config/sfSecurityConfigHandler.class.php
+END

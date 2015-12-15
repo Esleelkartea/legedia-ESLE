@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin
+END
+EasySwiftResponseTracker.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/EasySwiftResponseTracker.php
+END
+ConnectionRotator.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/ConnectionRotator.php
+END
+BandwidthMonitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/BandwidthMonitor.php
+END
+MailSend.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/MailSend.php
+END
+VerboseSending.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/VerboseSending.php
+END
+AntiFlood.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/AntiFlood.php
+END
+Decorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/Decorator.php
+END
+FileEmbedder.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/FileEmbedder.php
+END
+Throttler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Plugin/Throttler.php
+END

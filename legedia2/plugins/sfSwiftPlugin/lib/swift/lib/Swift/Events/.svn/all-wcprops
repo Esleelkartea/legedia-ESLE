@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events
+END
+ListenerMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/ListenerMapper.php
+END
+ConnectEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/ConnectEvent.php
+END
+DisconnectEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/DisconnectEvent.php
+END
+SendEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/SendEvent.php
+END
+ConnectListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/ConnectListener.php
+END
+DisconnectListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/DisconnectListener.php
+END
+SendListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/SendListener.php
+END
+CommandEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/CommandEvent.php
+END
+ResponseEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/ResponseEvent.php
+END
+BeforeSendListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/BeforeSendListener.php
+END
+CommandListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/CommandListener.php
+END
+ResponseListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/ResponseListener.php
+END
+Listener.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/Listener.php
+END
+BeforeCommandListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events/BeforeCommandListener.php
+END

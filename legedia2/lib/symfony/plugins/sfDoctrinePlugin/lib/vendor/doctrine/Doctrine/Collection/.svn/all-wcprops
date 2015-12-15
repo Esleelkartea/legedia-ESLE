@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection/Iterator.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection/Exception.php
+END
+Offset.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection/Offset.php
+END

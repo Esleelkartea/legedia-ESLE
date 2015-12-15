@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util
+END
+SourceFileScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/SourceFileScanner.php
+END
+ExtendedFileStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/ExtendedFileStream.php
+END
+DirectoryScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/DirectoryScanner.php
+END
+LogWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/LogWriter.php
+END
+FileUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/FileUtils.php
+END
+StringHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/StringHelper.php
+END
+PathTokenizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/util/PathTokenizer.php
+END

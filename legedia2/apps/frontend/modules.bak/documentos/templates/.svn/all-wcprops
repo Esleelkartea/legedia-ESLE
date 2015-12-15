@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates
+END
+_list_documentos_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_actions.php
+END
+_show_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show_footer.php
+END
+_show_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show_actions.php
+END
+_list_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_messages.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_footer.php
+END
+_edit_form_trabajadores_partial.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_form_trabajadores_partial.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/listSuccess.php
+END
+list_documentosSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/list_documentosSuccess.php
+END
+_filters_old.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_filters_old.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_filters.php
+END
+showSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/showSuccess.php
+END
+_list_documentos.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_td_tabular.php
+END
+_edit_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_messages.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/editSuccess.php
+END
+_list_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_th_tabular.php
+END
+_show.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show.php
+END
+_list_documentos_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_td_actions.php
+END
+_list_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_header.php
+END
+elegirproyectoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/elegirproyectoSuccess.php
+END
+_show_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show_header.php
+END
+_list_documentos_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_footer.php
+END
+_edit_form_trabajadores.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_form_trabajadores.php
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_actions.php
+END
+ajaxfasesdeproyectoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/ajaxfasesdeproyectoSuccess.php
+END
+_edit_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_header.php
+END
+elegirfaseSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/elegirfaseSuccess.php
+END
+_list_td_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_td_stacked.php
+END
+_show_form_trabajadores_partial.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show_form_trabajadores_partial.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/indexSuccess.php
+END
+_list_documentos_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_messages.php
+END
+_list_th_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_th_stacked.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_edit_form.php
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list.php
+END
+_list_documentos_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_td_tabular.php
+END
+elegirproyectofiltersSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/elegirproyectofiltersSuccess.php
+END
+_list_documentos_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_th_tabular.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_td_actions.php
+END
+_list_documentos_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_documentos_header.php
+END
+_show_form_trabajadores.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_show_form_trabajadores.php
+END
+_list_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/_list_footer.php
+END
+elegirfasefiltersSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/documentos/templates/elegirfasefiltersSuccess.php
+END

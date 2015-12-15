@@ -1,0 +1,70 @@
+menu1:
+    title: PRINCIPAL
+    submenu: # a submenu for menu1
+      menu1.1:
+        title: Inicio
+        url: panel/index
+      menu1.2:
+        title: Mensajes
+        url: mensajes/index
+      menu1.3:
+        title: Mis preferencias
+        url: preferencias/index
+      menu1.4:
+        title: Acerca de...
+        url: content/about
+menu2:
+    title: TAREAS
+    url: tareas/index
+menu3:
+    title: CONFIGURACION
+    submenu: # a submenu for menu3
+      menu3.1:
+        title: Empresas
+        submenu:
+          menu3.1.1:
+            title: Empresas gestionadas
+            url: empresas/index
+          menu3.1.2:
+            title: Encargadas Tratamiento
+            url: encargados/index
+      menu3.2:
+        title: Tablas
+        url: tablas/list
+      menu3.3:
+        title: Parametros
+        url: parametros/index
+      menu3.4:
+        title: Usuarios
+        submenu:
+          menu3.4.1:
+            title: Usuarios
+            url: usuarios/list
+          menu3.4.2:
+            title: Grupos
+            url: grupos/list
+      menu3.5:
+        title: Visor de Acciones
+        url: sesiones/index
+      menu3.6:
+        title: Backups
+        url: backups/index
+      menu3.7:
+        title: Idiomas
+        submenu:
+          menu3.7.1:
+           title: Idiomas
+           url: sfCatalogue/index
+          menu3.7.2:
+           title: Traducciones
+           url: sfTransUnit/index
+#menu4:
+#    title:  ACERCA DE...
+#    url: content/about
+#    submenu: # a submenu for menu4
+#      menu4.1:
+#        title: Acerca de
+#        url: content/about
+#      menu4.2:
+#        title: Informe de un error
+#        url: content/bugreport

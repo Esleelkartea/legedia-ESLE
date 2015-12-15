@@ -1,0 +1,111 @@
+#sf_admin_container ul.content_menu li
+{
+  list-style: none;
+  padding: 3px 3px 3px 30px;
+}
+
+#sf_admin_container ul.content_menu .actual
+{
+  font-weight: bold;
+}
+
+#sf_admin_container .icon_neofis
+{
+  background: url('../images/icons/house.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_email
+{
+  background: url('../images/icons/email.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_bug
+{
+  background: url('/images/icons/bug.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_information
+{
+  background: url('../images/icons/information.png') no-repeat 3px 2px !important;
+}
+#sf_admin_container .icon_help
+{
+  background: url('../images/icons/help.png') no-repeat 3px 2px !important;
+}
+#sf_admin_container .icon_terms
+{
+  background: url('../images/icons/book_open.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_help
+{
+  background: url('../images/icons/help.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_privacy
+{
+  background: url('../images/icons/shield.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_version
+{
+  background: url('../images/icons/bricks.png') no-repeat 3px 2px !important;
+}
+
+ul.panel_acciones
+{
+  list-style-type: none;
+}
+
+ul.panel_acciones li
+{
+  padding: 5px;
+  background: #ddd;
+  
+  display: block; 
+
+  font-weight: bold; 
+  font-size: 1.1em; 
+  color: #555;  
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin-top: 10px;
+}
+
+ul.panel_acciones li a {
+  padding: 5px;
+  padding-left: 25px;
+  background-position: 5px 7px;
+  background-repeat: no-repeat;
+  text-decoration: none; 
+}
+
+ul.panel_acciones li a:hover
+{
+  background-color: #ccc;
+} 
+
+ul.panel_acciones a.mensaje
+{
+  background-image: url('../images/icons/email.png');
+}
+ul.panel_acciones a.tarea
+{
+  background-image: url('../images/icons/calendar.png');
+}
+
+ul.panel_acciones a.clientes
+{
+  background-image: url('../images/icons/group.png');
+}
+
+
+ul.panel_acciones a.calendario
+{
+  background-image: url('../images/icons/calendar.png');
+}
+
+ul.panel_acciones a.llamada
+{
+  background-image: url('../images/icons/phone.png');
+}

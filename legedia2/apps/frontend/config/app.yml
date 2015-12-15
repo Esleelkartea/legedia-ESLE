@@ -1,0 +1,48 @@
+# default values
+all:
+  general:
+    version:            2.0.0
+    cifrado_usuario:    1234567890
+  directorio:
+    tmp:                %SF_WEB_DIR%/tmp/
+    informes:           %SF_APP_MODULE_DIR%/informes/htdocs/
+    upload:             %SF_WEB_DIR%/uploads/
+    modulos:            %SF_APP_MODULE_DIR%
+    logos:              %SF_WEB_DIR%/images/logos/
+    web:                %SF_WEB_DIR%
+    backups:            %SF_WEB_DIR%/backups/
+  listas:
+    default:            10
+    tablas:             15
+    clientes:           10
+    panel:              5
+    mensajes:           10
+    formularios:        10      
+  logos:
+    max_size_width:         320
+    max_size_height:        200
+    med_size_width:         210
+    med_size_height:        120
+    min_size_width:         150
+    min_size_height:        70
+    default_max:            /images/logos/default_logo_max.jpg
+    default_med:            /images/logos/default_logo_med.jpg
+    default_min:            /images/logos/default_logo_min.jpg
+  tipo_titularidad:         2 #Titularidad Privada (La Pública sería '1')
+  metodo_prueba_xml:        probarXML
+  metodo_registro_xml:      registrarXML
+  bin_openssl:           openssl
+  smtp:
+      server:             
+      port:               
+      user:               
+      password:           
+  email:
+      default_address_from:   legedia@legedia.com
+      default_name_from:      Legedia
+  bugreport:
+      mail_txt_header:      |
+       Estimado webmaster, hay un nuevo mensaje informando de un error en Legedia<br>A continuacion se muestra el contenido:
+      mail_txt_footer:      Un saludo.
+      mail_subject:         Nuevo informe de error en Legedia
+      mail_recipient1:      legedia@legedia.com

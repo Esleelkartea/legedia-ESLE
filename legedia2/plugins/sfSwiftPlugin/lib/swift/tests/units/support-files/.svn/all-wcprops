@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files
+END
+AbstractTestWithSend.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/AbstractTestWithSend.php
+END
+list_panel.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/list_panel.php
+END
+BasicTestSuite.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/BasicTestSuite.php
+END
+AbstractTestOfCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/AbstractTestOfCache.php
+END
+AbstractTestOfAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/AbstractTestOfAuthenticator.php
+END
+common.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/common.php
+END
+test_runner.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/test_runner.php
+END

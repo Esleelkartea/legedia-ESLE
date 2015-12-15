@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/builder
+END
+SfMultiExtendObjectBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfMultiExtendObjectBuilder.php
+END
+SfNestedSetPeerBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfNestedSetPeerBuilder.php
+END
+SfPeerBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfPeerBuilder.php
+END
+SfNestedSetBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfNestedSetBuilder.php
+END
+SfExtensionObjectBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfExtensionObjectBuilder.php
+END
+SfMapBuilderBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfMapBuilderBuilder.php
+END
+SfObjectBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfObjectBuilder.php
+END
+SfExtensionPeerBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/builder/SfExtensionPeerBuilder.php
+END

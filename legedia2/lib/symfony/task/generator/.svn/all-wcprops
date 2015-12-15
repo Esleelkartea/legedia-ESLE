@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/22/lib/symfony/task/generator
+END
+sfGenerateAppTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/8/lib/symfony/task/generator/sfGenerateAppTask.class.php
+END
+sfGenerateTaskTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/sfGenerateTaskTask.class.php
+END
+sfGenerateModuleTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/sfGenerateModuleTask.class.php
+END
+sfGenerateProjectTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/sfGenerateProjectTask.class.php
+END
+sfGeneratorBaseTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/sfGeneratorBaseTask.class.php
+END

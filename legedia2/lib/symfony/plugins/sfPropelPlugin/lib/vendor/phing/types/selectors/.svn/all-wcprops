@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors
+END
+SelectorScanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/SelectorScanner.php
+END
+ContainsRegexpSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/ContainsRegexpSelector.php
+END
+MajoritySelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/MajoritySelector.php
+END
+DependSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/DependSelector.php
+END
+NoneSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/NoneSelector.php
+END
+SelectorUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/SelectorUtils.php
+END
+NotSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/NotSelector.php
+END
+AndSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/AndSelector.php
+END
+DepthSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/DepthSelector.php
+END
+SizeSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/SizeSelector.php
+END
+BaseSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/BaseSelector.php
+END
+BaseSelectorContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/BaseSelectorContainer.php
+END
+DateSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/DateSelector.php
+END
+ContainsSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/ContainsSelector.php
+END
+SelectSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/SelectSelector.php
+END
+FileSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/FileSelector.php
+END
+FilenameSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/FilenameSelector.php
+END
+OrSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/OrSelector.php
+END
+PresentSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/PresentSelector.php
+END
+TypeSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/TypeSelector.php
+END
+BaseExtendSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/BaseExtendSelector.php
+END
+SelectorContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/SelectorContainer.php
+END
+ExtendSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/ExtendSelector.php
+END
+ExtendFileSelector.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/types/selectors/ExtendFileSelector.php
+END

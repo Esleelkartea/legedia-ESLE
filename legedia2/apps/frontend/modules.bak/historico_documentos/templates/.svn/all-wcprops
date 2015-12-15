@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates
+END
+_show_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_show_footer.php
+END
+_show_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_show_actions.php
+END
+_list_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_messages.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_edit_footer.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/listSuccess.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_filters.php
+END
+showSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/showSuccess.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_td_tabular.php
+END
+_edit_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_edit_messages.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/editSuccess.php
+END
+_show.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_show.php
+END
+_list_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_th_tabular.php
+END
+_create_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_create_footer.php
+END
+_list_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_header.php
+END
+_show_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_show_header.php
+END
+_create_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_create_messages.php
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_actions.php
+END
+_edit_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_edit_header.php
+END
+createSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/createSuccess.php
+END
+_list_td_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_td_stacked.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/indexSuccess.php
+END
+_list_th_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_th_stacked.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_edit_form.php
+END
+_create_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_create_header.php
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_td_actions.php
+END
+_create_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_create_actions.php
+END
+descargarSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/descargarSuccess.php
+END
+_create_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_create_form.php
+END
+_list_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/68/apps/frontend/modules.bak/historico_documentos/templates/_list_footer.php
+END

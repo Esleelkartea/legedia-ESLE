@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore
+END
+cms-schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore/cms-schema.xml
+END
+schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore/schema.xml
+END
+runtime-conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore/runtime-conf.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore/build.properties
+END

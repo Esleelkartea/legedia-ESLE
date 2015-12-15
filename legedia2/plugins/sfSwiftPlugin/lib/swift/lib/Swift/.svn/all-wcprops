@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Iterator.php
+END
+ConnectionBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/ConnectionBase.php
+END
+CacheFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/CacheFactory.php
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/ClassLoader.php
+END
+FileException.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/FileException.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Exception.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Connection.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Events.php
+END
+Authenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Authenticator.php
+END
+BatchMailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/BatchMailer.php
+END
+RecipientList.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/RecipientList.php
+END
+ConnectionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/ConnectionException.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/File.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Log.php
+END
+BadResponseException.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/BadResponseException.php
+END
+LogContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/LogContainer.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Message.php
+END
+Address.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Address.php
+END
+AddressContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/AddressContainer.php
+END

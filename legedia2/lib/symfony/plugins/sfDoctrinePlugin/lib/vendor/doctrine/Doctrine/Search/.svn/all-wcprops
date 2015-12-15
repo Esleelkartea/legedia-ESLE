@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Parser.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Exception.php
+END
+Indexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Indexer.php
+END
+Record.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Record.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/File.php
+END
+Analyzer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer.php
+END
+Listener.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Listener.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Query.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repo/legedia/!svn/ver/67/apps/frontend/lib/helper
+END
+MiModalBoxHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/1/apps/frontend/lib/helper/MiModalBoxHelper.php
+END
+MisObjetosHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/67/apps/frontend/lib/helper/MisObjetosHelper.php
+END
+FormularioModeloHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/apps/frontend/lib/helper/FormularioModeloHelper.php
+END
+NeofisGraphHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/1/apps/frontend/lib/helper/NeofisGraphHelper.php
+END
+MiSesionHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/apps/frontend/lib/helper/MiSesionHelper.php
+END

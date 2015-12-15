@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/addon
+END
+sfPropelManyToMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelManyToMany.class.php
+END
+sfPropelPager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelPager.class.php
+END
+sfPropel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropel.class.php
+END
+sfPropelBehavior.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelBehavior.class.php
+END
+sfMixer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfMixer.class.php
+END
+sfPropelAutoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelAutoload.php
+END
+sfPropelDatabaseSchema.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelDatabaseSchema.class.php
+END
+sfPropelData.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/lib/addon/sfPropelData.class.php
+END

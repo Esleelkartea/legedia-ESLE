@@ -1,0 +1,66 @@
+#sf_admin_container .sf_admin_list
+{
+  width: 100%;
+ 
+}
+
+#sf_admin_container .sf_admin_row_0 td
+{
+  background-color: #FFFFFF;
+}
+
+#sf_admin_container .sf_admin_row_1 td
+{
+  background-color: #FFFFFF;
+ 
+  
+}
+
+table{
+  font-size:1em;
+  border-right:1px solid #DDDDDD;
+}
+
+
+table thead td{
+	background-color:#000;
+	color:#FFFFFF;
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #CCCCCC; 
+}
+
+table th {
+	background-color:#000;
+	color:#fff;
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+	border-left:1px solid #FFFFFF;
+
+}
+table th a {
+       
+        color:#fff;
+       
+
+}
+
+table tfoot th {
+	text-align:left;	
+}
+
+
+table td{	
+   border-left:1px solid #DDDDDD;
+   border-bottom:1px solid #DDDDDD;
+   background-color:#FFFFFF;
+}
+
+table tfoot td{
+	background-color:#7DC023;
+	color:#FFFFFF;
+	padding:5px;
+	font-weight:bold;
+}

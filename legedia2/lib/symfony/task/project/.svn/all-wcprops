@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repo/legedia/!svn/ver/22/lib/symfony/task/project
+END
+sfProjectDisableTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectDisableTask.class.php
+END
+sfProjectUnfreezeTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectUnfreezeTask.class.php
+END
+sfUpgradeTo11Task.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfUpgradeTo11Task.class.php
+END
+sfProjectEnableTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectEnableTask.class.php
+END
+sfUpgradeTo12Task.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfUpgradeTo12Task.class.php
+END
+sfProjectPermissionsTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectPermissionsTask.class.php
+END
+sfProjectDeployTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectDeployTask.class.php
+END
+sfProjectClearControllersTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectClearControllersTask.class.php
+END
+sfProjectFreezeTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/sfProjectFreezeTask.class.php
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export
+END
+Informix.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Informix.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Exception.php
+END
+Mssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Mssql.php
+END
+Schema.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Schema.php
+END
+Sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Sqlite.php
+END
+Reporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Reporter.php
+END
+Frontbase.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Frontbase.php
+END
+Mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Mysql.php
+END
+Oracle.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Oracle.php
+END
+Firebird.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Firebird.php
+END
+Pgsql.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export/Pgsql.php
+END

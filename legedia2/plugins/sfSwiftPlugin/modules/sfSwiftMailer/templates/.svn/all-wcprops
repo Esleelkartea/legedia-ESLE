@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/modules/sfSwiftMailer/templates
+END
+thankYouSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/modules/sfSwiftMailer/templates/thankYouSuccess.php
+END
+thankYouHtmlSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/modules/sfSwiftMailer/templates/thankYouHtmlSuccess.php
+END
+thankYouTextSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/modules/sfSwiftMailer/templates/thankYouTextSuccess.php
+END

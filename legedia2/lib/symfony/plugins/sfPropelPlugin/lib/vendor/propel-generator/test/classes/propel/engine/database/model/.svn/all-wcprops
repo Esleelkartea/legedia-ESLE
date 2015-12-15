@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/database/model
+END
+ColumnTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/database/model/ColumnTest.php
+END
+TableTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/database/model/TableTest.php
+END
+NameFactoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/database/model/NameFactoryTest.php
+END

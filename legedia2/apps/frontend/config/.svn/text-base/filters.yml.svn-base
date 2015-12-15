@@ -1,0 +1,13 @@
+rendering: ~
+security:  ~
+
+# insert your own filters here
+permisos:                 # Filtro para comprobar permisos del usuario.
+  class: permisosFilter
+
+alcance:                 # Filtro para comprobar el alcance del usuario
+  class: alcanceFilter
+
+cache:     ~
+common:    ~
+execution: ~

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation
+END
+Nest.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/Nest.php
+END
+Association.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/Association.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/Parser.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/Exception.php
+END
+ForeignKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/ForeignKey.php
+END
+LocalKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation/LocalKey.php
+END

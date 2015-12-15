@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data
+END
+environment.migrated
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data/environment.migrated
+END
+database.sqlite
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/data/database.sqlite
+END

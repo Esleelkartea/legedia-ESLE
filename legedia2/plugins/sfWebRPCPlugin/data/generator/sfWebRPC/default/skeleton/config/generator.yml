@@ -1,0 +1,6 @@
+generator:
+  class:              sfWebRPCGenerator
+  param:
+    theme:            default
+#    rpc_functions:
+#      add: {function: yourClassName::superAddFct, nparam:2}

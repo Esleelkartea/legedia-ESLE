@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang
+END
+NullPointerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang/NullPointerException.php
+END
+FileNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang/FileNotFoundException.php
+END
+Character.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang/Character.php
+END
+SecurityException.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang/SecurityException.php
+END
+EventObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/system/lang/EventObject.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfCompat10Plugin/config
+END
+mailer.yml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfCompat10Plugin/config/mailer.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfCompat10Plugin/config/config.php
+END

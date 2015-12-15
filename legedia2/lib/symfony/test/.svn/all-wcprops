@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/22/lib/symfony/test
+END
+sfTestFunctionalBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/8/lib/symfony/test/sfTestFunctionalBase.class.php
+END
+sfTesterRequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTesterRequest.class.php
+END
+sfTestFunctional.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/8/lib/symfony/test/sfTestFunctional.class.php
+END
+sfTestBrowser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTestBrowser.class.php
+END
+sfTesterResponse.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTesterResponse.class.php
+END
+sfTesterUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTesterUser.class.php
+END
+sfTesterViewCache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTesterViewCache.class.php
+END
+sfTester.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/lib/symfony/test/sfTester.class.php
+END
+sfTesterForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/8/lib/symfony/test/sfTesterForm.class.php
+END

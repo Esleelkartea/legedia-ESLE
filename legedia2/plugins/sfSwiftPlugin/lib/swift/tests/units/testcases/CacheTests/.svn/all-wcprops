@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CacheTests
+END
+TestOfMemoryCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CacheTests/TestOfMemoryCache.php
+END
+TestOfDiskCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CacheTests/TestOfDiskCache.php
+END
+TestOfJointOutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/CacheTests/TestOfJointOutputStream.php
+END

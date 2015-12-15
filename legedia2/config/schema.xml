@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="legedia" defaultIdMethod="native">
+  <table name="usuario">
+    <column name="id_usuario" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_idioma" type="VARCHAR" size="6" required="true" />
+    <column name="usuario" type="VARCHAR" size="30" />
+    <column name="clave" type="VARCHAR" size="255" />
+    <column name="nombre" type="VARCHAR" size="150" />
+    <column name="apellido1" type="VARCHAR" size="100" />
+    <column name="apellido2" type="VARCHAR" size="100" />
+    <column name="dni" type="VARCHAR" size="10" />
+    <column name="domicilio" type="LONGVARCHAR" />
+    <column name="poblacion" type="VARCHAR" size="50" />
+    <column name="cp" type="INTEGER"  size="9" />
+    <column name="id_provincia" type="INTEGER" size="11" />
+    <column name="pais" type="VARCHAR" size="80" />
+    <column name="movil" type="VARCHAR" size="15" />
+    <column name="telefono" type="VARCHAR" size="15" />
+    <column name="fax" type="VARCHAR" size="15" />
+    <column name="ultima_visita" type="TIMESTAMP" />
+    <column name="email" type="VARCHAR" size="45" />
+    <column name="public_key" type="LONGVARCHAR" />
+    <column name="es_externo" type="BOOLEAN" />
+    <column name="alerta_email" type="BOOLEAN" default="0" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <column name="fecha_borrado" type="TIMESTAMP" />
+    <foreign-key foreignTable="catalogue" name="fk_idioma_usuario" >
+        <reference local="id_idioma" foreign="cat_id" />
+    </foreign-key>
+    <foreign-key foreignTable="provincia" name="fk_usuario_provincia" onDelete="">
+        <reference local="id_provincia" foreign="id_provincia" />
+    </foreign-key>
+  </table>
+
+  <table name="grupo">
+    <column name="id_grupo" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="nombre" type="VARCHAR" size="255" />
+    <column name="padre" type="INTEGER" />
+  </table>
+
+  <table name="grupo_modulo">
+          <column name="modulo" type="VARCHAR" size="50" required="true" primaryKey="true" />
+          <column name="accion" type="VARCHAR" size="50" required="true" primaryKey="true" />
+          <column name="id_grupo" type="INTEGER" required="true" primaryKey="true" />
+          <column name="permiso" type="BOOLEAN" default="TRUE" />
+          <foreign-key foreignTable="grupo" name="fk_grupo_modulo_grupo" onDelete="">
+                  <reference local="id_grupo" foreign="id_grupo" />
+          </foreign-key>
+  </table>
+
+  <table name="usuario_grupo">
+          <column name="id_usuario" type="INTEGER" required="true" primaryKey="true" />
+          <column name="id_grupo" type="INTEGER" required="true" primaryKey="true" />
+          <foreign-key foreignTable="usuario" name="fk_usuario_grupo_usuario" onDelete="">
+                  <reference local="id_usuario" foreign="id_usuario" />
+          </foreign-key>
+          <foreign-key foreignTable="grupo" name="fk_grupo_usuario_grupo" onDelete="">
+                  <reference local="id_grupo" foreign="id_grupo" />
+          </foreign-key>
+  </table>
+
+ <!-- Plugin para idiomas -->
+
+    <table name="catalogue">
+    <column name="cat_id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="nvisible" type="varchar" size="100" />
+    <column name="name" type="varchar" size="100" />
+    <column name="source_lang" type="varchar" size="100" />
+    <column name="target_lang" type="varchar" size="100" />
+    <column name="date_created" type="timestamp" />
+    <column name="date_modified" type="timestamp" />
+    <column name="author" type="varchar" size="255" />
+   </table>
+
+   <table name="trans_unit">
+    <column name="msg_id" type="integer" required="true" primaryKey="true" autoincrement="true" />
+    <column name="cat_id" type="integer" />
+      <foreign-key foreignTable="catalogue" onDelete="cascade">
+        <reference local="cat_id" foreign="cat_id"/>
+      </foreign-key>
+    <column name="id" type="varchar" size="255" />
+    <column name="source" type="longvarchar" />
+    <column name="target" type="longvarchar" />
+    <column name="comments" type="longvarchar" />
+    <column name="date_added" type="timestamp" />
+    <column name="date_modified" type="timestamp" />
+    <column name="author" type="varchar" size="255" />
+    <column name="translated" type="integer" />
+   </table>
+<!-- Plugin para idiomas -->
+
+   <table name="sesion_log" phpName="SesionLog">
+    <column name="id_log" type="INTEGER" size="15" primaryKey="true" required="true" autoIncrement="true"/>
+    <column name="id_sesion" type="INTEGER" required="true"/>
+    <column name="fecha" type="TIMESTAMP" required="true" />
+    <column name="URL" type="VARCHAR" size="100" required="true"/>
+    <column name="modulo" type="VARCHAR" size="40"/>
+    <column name="accion" type="VARCHAR" size="40"/>
+    <column name="firma" type="LONGVARCHAR" />
+    <column name="public_key" type="LONGVARCHAR" />
+    <column name="parametros" type="LONGVARCHAR" required="true"/>
+    <column name="mensaje" type="LONGVARCHAR" required="true"/>
+    <foreign-key foreignTable="sesion" name="PaginasVistas">
+      <reference local="id_sesion" foreign="id_sesion"/>
+    </foreign-key>
+  </table>
+
+  <table name="alcance">
+    <column name="id_alcance" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_usuario" type="INTEGER" required="true" primaryKey="true" />
+    <column name="id_empresa" type="INTEGER" required="true" />
+    <column name="id_tabla" type="INTEGER" required="true" />
+    <column name="titulo" type="VARCHAR" size="255" />
+    <column name="descripcion" type="LONGVARCHAR" />
+    <column name="ver_todos_registros" type="BOOLEAN" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <foreign-key foreignTable="empresa" name="fk_empresa_alcance" onDelete="">
+            <reference local="id_empresa" foreign="id_empresa" />
+    </foreign-key>
+    <foreign-key foreignTable="tabla" name="fk_tabla_alcance" onDelete="">
+            <reference local="id_tabla" foreign="id_tabla" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_alcance" onDelete="">
+            <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+  </table>
+
+  <table name="sesion" phpName="Sesion">
+    <column name="id_sesion" type="INTEGER" primaryKey="true" required="true" autoIncrement="true"/>
+    <column name="id_usuario" type="INTEGER" size="15" required="true"/>
+    <column name="sesion" type="VARCHAR" size="50"/>
+    <column name="IP" type="VARCHAR" size="15"/>
+    <foreign-key foreignTable="usuario" name="VisitasDeUsuarios">
+      <reference local="id_usuario" foreign="id_usuario"/>
+    </foreign-key>
+  </table>
+
+  <table name="mensaje">
+    <column name="id_mensaje" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_usuario" type="INTEGER" required="true" />
+    <column name="asunto" type="VARCHAR" size="255" />
+    <column name="cuerpo" type="LONGVARCHAR" />
+    <column name="fecha" type="TIMESTAMP" />
+    <column name="email" type="BOOLEAN" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="usuario" name="fk_usuario_mensaje" onDelete="">
+        <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+  </table>
+
+  <table name="mensaje_destino">
+    <column name="id_mensaje" type="INTEGER" required="true" primaryKey="true" />
+    <column name="id_usuario" type="INTEGER" required="true" primaryKey="true" />
+    <column name="leido" type="BOOLEAN" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="mensaje" name="fk_mensaje_destino_mensaje" onDelete="">
+      <reference local="id_mensaje" foreign="id_mensaje" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_mensaje_destino" onDelete="">
+      <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+  </table>
+
+  <table name="parametro">
+    <column name="id_parametro" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="tipoParametro" type="VARCHAR" size="100" required="true" />
+    <column name="nombre" type="VARCHAR" size="100" />
+    <column name="orden" type="INTEGER" />
+    <column name="numero" type="FLOAT" />
+    <column name="numero2" type="FLOAT" />
+    <column name="cadena" type="LONGVARCHAR" />
+    <column name="cadena1" type="LONGVARCHAR" />
+    <column name="otroObjeto" type="INTEGER" />
+    <column name="si_no" type="BOOLEAN" />
+    <column name="fecha" type="TIMESTAMP" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <column name="fechaBorrado" type="TIMESTAMP" />
+    <column name="nombreFichero" type="VARCHAR" size="200" />
+    <column name="tipo" type="VARCHAR" size="100" />
+    <column name="fichero" type="LONGVARCHAR" />
+    <column name="tamano" type="INTEGER" />
+    <foreign-key foreignTable="parametro_def" name="fk_parametro_definicion_parametro" onDelete="">
+            <reference local="tipoParametro" foreign="tipoParametro" />
+    </foreign-key>
+  </table>
+
+  <table name="parametro_def">
+    <column name="tipoParametro" type="VARCHAR" size="100" required="true" primaryKey="true" />
+    <column name="nombre" type="VARCHAR" size="100" />
+    <column name="descripcion" type="LONGVARCHAR" />
+    <column name="esLista" type="BOOLEAN" />
+    <column name="camposLista" type="LONGVARCHAR" />
+    <column name="campoNombre" type="VARCHAR" size="150" />
+    <column name="campoNumero" type="VARCHAR" size="150" />
+    <column name="campoNumero2" type="VARCHAR" size="150" />
+    <column name="campoCadena" type="LONGVARCHAR" />
+    <column name="campoCadena1" type="VARCHAR" size="150" />
+    <column name="campoCadenaMultiIdioma" type="VARCHAR" size="150" />
+    <column name="campoOtroObjeto" type="LONGVARCHAR" />
+    <column name="campoSiNo" type="VARCHAR" size="150" />
+    <column name="campoFecha" type="VARCHAR" size="150" />
+    <column name="campoFichero" type="VARCHAR" size="150" />
+    <column name="esEditable" type="BOOLEAN" default="1" />
+    <column name="esBorrable" type="BOOLEAN" default="1" />
+  </table>
+
+  <table name="empresa">
+    <column name="id_empresa" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_provincia" type="INTEGER" required="true" />
+    <column name="id_usuario" type="INTEGER" required="true" />
+    <column name="nombre" type="VARCHAR" size="150" />
+    <column name="id_actividad" type="VARCHAR" size="3" required="true" />
+    <column name="telefono" type="VARCHAR" size="20" />
+    <column name="fax" type="VARCHAR" size="20" />
+    <column name="email" type="VARCHAR" size="50" />
+    <column name="domicilio" type="LONGVARCHAR" />
+    <column name="poblacion" type="VARCHAR" size="255" />
+    <column name="codigo_postal" type="VARCHAR" size="10" />
+    <column name="cif" type="VARCHAR" size="45" />
+    <column name="logo_min" type="VARCHAR" size="150" />
+    <column name="logo_med" type="VARCHAR" size="150" />
+    <column name="logo_max" type="VARCHAR" size="150" />
+    <column name="id_vtiger" type="INTEGER" />
+    <column name="smtp_server" type="VARCHAR" size="150" />
+    <column name="smtp_user" type="VARCHAR" size="150" />
+    <column name="smtp_password" type="VARCHAR" size="255" />
+    <column name="smtp_port" type="INTEGER" />
+    <column name="sender_address" type="VARCHAR" size="150" />
+    <column name="sender_name" type="VARCHAR" size="100" />
+    <column name="color1" type="VARCHAR" size="10" />
+    <column name="color2" type="VARCHAR" size="10" />
+    <column name="color3" type="VARCHAR" size="10" />
+    <column name="color4" type="VARCHAR" size="10" />
+    <column name="color_letra1" type="VARCHAR" size="10" />
+    <column name="color_letra2" type="VARCHAR" size="10" />
+    <column name="color_letra3" type="VARCHAR" size="10" />
+    <column name="color_letra4" type="VARCHAR" size="10" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="provincia" name="fk_empresa_provincia" onDelete="">
+            <reference local="id_provincia" foreign="id_provincia" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_empresa" onDelete="">
+            <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+    <foreign-key foreignTable="taula1" name="fk_empresa_actividad" onDelete="">
+            <reference local="id_actividad" foreign="t1id" />
+    </foreign-key>
+  </table>
+
+
+  <table name="tabla">
+    <column name="id_tabla" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_usuario" type="INTEGER" required="true" />
+    <column name="id_empresa" type="INTEGER" required="true" />
+    <column name="nombre" type="VARCHAR" size="255" required="true" />
+    <column name="imagen" type="VARCHAR" size="255" />
+    <column name="mostrar_en_lista" type="BOOLEAN" default="true"/>
+    <column name="orden" type="INTEGER" size="11"/>
+    <column name="es_ficheros" type="BOOLEAN" />
+    <column name="id_categoria" type="INTEGER" size="11"/>
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="empresa" name="fk_tabla_empresa" onDelete="">
+            <reference local="id_empresa" foreign="id_empresa" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_tabla" onDelete="">
+            <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+    <foreign-key foreignTable="parametro" name="fk_categoria_parametro" onDelete="">
+            <reference local="id_categoria" foreign="id_parametro" />
+    </foreign-key>
+  </table>
+
+  <table name="campo">
+    <column name="id_campo" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_empresa" type="INTEGER" required="true" />
+    <column name="es_general" type="BOOLEAN" />
+    <column name="es_nombre" type="BOOLEAN" />
+    <column name="nombre" type="VARCHAR" size="150" />
+    <column name="descripcion" type="LONGVARCHAR" />
+    <column name="tipo" type="INTEGER" />
+    <column name="misma_fila" type="BOOLEAN" />
+    <column name="en_lista" type="BOOLEAN" />
+    <column name="desplegable" type="BOOLEAN" />
+    <column name="seleccion_multiple" type="BOOLEAN" />
+    <column name="tipo_items" type="INTEGER" />
+    <column name="unidad_rangos" type="VARCHAR" size="10" />
+    <column name="tipo_periodo" type="INTEGER" />
+    <column name="valor_tabla" type="INTEGER" />
+    <column name="mostrar_en_padre" type="BOOLEAN" />
+    <column name="valor_objeto"  type="VARCHAR" size="250" />
+    <column name="defecto" type="VARCHAR" size="250" />
+    <column name="obligatorio" type="BOOLEAN" />
+    <column name="es_cod_agencia" type="BOOLEAN" />
+    <column name="tamano" type="VARCHAR" size="250" />
+    <column name="orden" type="INTEGER" />
+    <column name="es_inconsistente" type="BOOLEAN" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="empresa" name="fk_campo_empresa" onDelete="">
+            <reference local="id_empresa" foreign="id_empresa" />
+    </foreign-key>
+  </table>
+
+  <table name="rel_campo_tabla">
+    <column name="id_campo" type="INTEGER" required="true" primaryKey="true" />
+    <column name="id_tabla" type="INTEGER" required="true" primaryKey="true" />
+    <foreign-key foreignTable="campo" name="fk_campo_rel_campo_tabla" onDelete="">
+            <reference local="id_campo" foreign="id_campo" />
+    </foreign-key>
+    <foreign-key foreignTable="tabla" name="fk_tabla_rel_campo_tabla" onDelete="">
+            <reference local="id_tabla" foreign="id_tabla" />
+    </foreign-key>
+  </table>
+
+  <table name="provincia">
+    <column name="id_provincia" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="pais" type="VARCHAR" size="2" />
+    <column name="nombre" type="VARCHAR" size="45" />
+  </table>
+
+  <table name="item_base">
+    <column name="id_item_base" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_campo" type="INTEGER" required="true" />
+    <column name="texto" type="VARCHAR" size="150" />
+    <column name="numero_inferior" type="FLOAT" />
+    <column name="numero_superior" type="FLOAT" />
+    <column name="ayuda" type="LONGVARCHAR" />
+    <column name="texto_auxiliar" type="BOOLEAN" />
+    <column name="orden" type="INTEGER" />
+    <column name="es_responsable_fichero" type="BOOLEAN" />
+    <column name="es_inconsistente" type="BOOLEAN" />
+    <column name="borrado" type="BOOLEAN" />
+    <foreign-key foreignTable="campo" name="fk_campo_item" onDelete="">
+            <reference local="id_campo" foreign="id_campo" />
+    </foreign-key>
+  </table>
+
+  <table name="item">
+    <column name="id_item" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_formulario" type="INTEGER" required="true" primaryKey="true" />
+    <column name="id_item_base" type="INTEGER" required="true" />
+    <column name="texto_corto" type="VARCHAR" size="255" />
+    <column name="texto_largo" type="LONGVARCHAR" />
+    <column name="si_no" type="BOOLEAN" />
+    <column name="texto_auxiliar" type="VARCHAR" size="255" />
+    <column name="fecha" type="TIMESTAMP" />
+    <column name="numero" type="INTEGER" />
+    <column name="id_tabla" type="INTEGER" />
+    <column name="id_objeto" type="INTEGER" />
+    <column name="anio" type="INTEGER" />
+    <foreign-key foreignTable="item_base" name="fk_item_base_item" onDelete="">
+            <reference local="id_item_base" foreign="id_item_base" />
+    </foreign-key>
+    <foreign-key foreignTable="formulario" name="fk_item_formulario" onDelete="">
+            <reference local="id_formulario" foreign="id_formulario" />
+    </foreign-key>
+  </table>
+
+  <table name="formulario">
+    <column name="id_formulario" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_tabla" type="INTEGER" required="true" />
+    <column name="id_usuario_creador" type="INTEGER" required="true" />
+    <column name="id_usuario" type="INTEGER" required="true" />
+    <column name="fecha" type="TIMESTAMP" />
+    <column name="created_at" type="TIMESTAMP" />
+    <column name="updated_at" type="TIMESTAMP" />
+    <foreign-key foreignTable="tabla" name="fk_tabla_formulario" onDelete="">
+            <reference local="id_tabla" foreign="id_tabla" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_formulario" onDelete="">
+            <reference local="id_usuario" foreign="id_usuario" />
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="fk_usuario_creador_formulario" onDelete="">
+            <reference local="id_usuario_creador" foreign="id_usuario" />
+    </foreign-key>
+  </table>
+
+  <table name="notificaciones">
+    <column name="notid" type="INTEGER" size="11" required="true" primaryKey="true" autoIncrement="true" />    
+    <column name="soporte" type="VARCHAR" size="1" required="true" />
+    <column name="tipo" type="VARCHAR" size="1" required="true" />
+    <column name="tipo_noti" type="INTEGER" size="1" required="false" />
+    <column name="id_fichero" type="INTEGER" size="11" required="true" />
+    <column name="fecha" type="VARCHAR" size="8" required="true"  />
+    <column name="hora_proceso" type="VARCHAR" size="6" required="true"  />
+    <column name="procesado" type="INTEGER" size="4" required="false" defaultValue="0" />
+    <column name="hay_que_parar" type="INTEGER" size="4" required="false" defaultValue="0" />
+    <column name="modelo" type="VARCHAR" size="1" required="true" />
+    <column name="titularidad" type="VARCHAR" size="1" required="true" />
+    <column name="presentacion" type="VARCHAR" size="1" required="true" />
+    <column name="forma" type="VARCHAR" size="1" required="true" />
+    <column name="id_upload" type="VARCHAR" size="22" required= "true" />
+    <column name="pf_razon_s" type="VARCHAR" size="140" required= "true" />
+    <column name="pf_cif_nif" type="VARCHAR" size="9" required= "true" />
+    <column name="pf_nombre" type="VARCHAR" size="35" required= "true" />
+    <column name="pf_apellido1" type="VARCHAR" size="35" required= "true" />
+    <column name="pf_apellido2" type="VARCHAR" size="35" required= "true" />
+    <column name="pf_nif" type="VARCHAR" size="9" required= "false" />
+    <column name="pf_cargo" type="VARCHAR" size="70" required= "true" />
+    <column name="dec_razon_s" type="VARCHAR" size="70" required= "true" />
+    <column name="dec_direccion" type="VARCHAR" size="100" required= "true" />
+    <column name="dec_localidad" type="VARCHAR" size="50" required= "true" />
+    <column name="dec_cp" type="VARCHAR" size="5" required= "false" />
+    <column name="dec_provincia" type="VARCHAR" size="2" required= "false" />
+    <column name="dec_pais" type="VARCHAR" size="2" required= "true" />
+    <column name="dec_tel" type="VARCHAR" size="10" required= "false" />
+    <column name="dec_fax" type="VARCHAR" size="10" required= "false" />
+    <column name="dec_mail" type="VARCHAR" size="70" required= "false" />
+    <column name="dec_forma" type="INTEGER" size="1" required= "true" />
+    <column name="rf_nombre" type="VARCHAR" size="140" required= "false" />
+    <column name="rf_actividad" type="VARCHAR" size="3" required= "false" />
+    <column name="rf_cif" type="VARCHAR" size="9" required= "true" />
+    <column name="rf_domicilio" type="VARCHAR" size="100" required= "true" />
+    <column name="rf_localidad" type="VARCHAR" size="50" required= "true" />
+    <column name="rf_cp" type="VARCHAR" size="5" required= "false" />
+    <column name="rf_provincia" type="VARCHAR" size="2" required= "false" />
+    <column name="rf_pais" type="VARCHAR" size="2" required= "true" />
+    <column name="rf_tel" type="VARCHAR" size="10" required= "false" />
+    <column name="rf_fax" type="VARCHAR" size="10" required= "false" />
+    <column name="rf_mail" type="VARCHAR" size="70" required= "false" />
+    <column name="dr_nombreof" type="VARCHAR" size="70" required= "false" />
+    <column name="dr_cif" type="VARCHAR" size="9" required= "false" />
+    <column name="dr_dirpostal" type="VARCHAR" size="100" required= "false" />
+    <column name="dr_localidad" type="VARCHAR" size="50" required= "false" />
+    <column name="dr_cp" type="VARCHAR" size="5" required= "false" />
+    <column name="dr_provincia" type="VARCHAR" size="2" required= "true" />
+    <column name="dr_pais" type="VARCHAR" size="2" required= "false" />
+    <column name="dr_tel" type="VARCHAR" size="10" required= "false" />
+    <column name="dr_fax" type="VARCHAR" size="10" required= "false" />
+    <column name="dr_mail" type="VARCHAR" size="70" required= "false" />
+    <column name="tipo_solicitud" type="INTEGER" size="1" required= "true" />
+    <column name="ac_mod_responsable" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_cif_nif_ant" type="VARCHAR" size="9" required= "false" />
+    <column name="ac_mod_servicio_unidad" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_disposicion" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_iden_finalid" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_encargado" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_estruct_sistema" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_medidas_seg" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_origen" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_trans_inter" type="INTEGER" size="1" required= "false" />
+    <column name="ac_mod_comunic_ces" type="INTEGER" size="1" required= "false" />
+    <column name="ac_supr_motivos" type="VARCHAR" size="140" required= "false" />
+    <column name="ac_supr_destino_previsiones" type="VARCHAR" size="210" required= "false" />
+    <column name="ac_supr_cifnif" type="VARCHAR" size="9" required= "false" />
+    <column name="et_nombre" type="VARCHAR" size="140" required= "false" />
+    <column name="et_cif" type="VARCHAR" size="9" required= "false" />
+    <column name="et_dirpostal" type="VARCHAR" size="100" required= "false" />
+    <column name="et_localidad" type="VARCHAR" size="50" required= "false" />
+    <column name="et_cp" type="VARCHAR" size="5" required= "false" />
+    <column name="et_provincia" type="VARCHAR" size="2" required= "false" />
+    <column name="et_pais" type="VARCHAR" size="2" required= "false" />
+    <column name="et_tel" type="VARCHAR" size="10" required= "false" />
+    <column name="et_fax" type="VARCHAR" size="10" required= "false" />
+    <column name="et_mail" type="VARCHAR" size="70" required= "false" />
+    <column name="idn_nombre" type="VARCHAR" size="70" required= "false" />
+    <column name="idn_descripcion" type="LONGVARCHAR" required= "false" />
+    <column name="idn_finalidades" type="VARCHAR" size="23" required= "false" />
+    <column name="indica_inte" type="INTEGER" size="1" required= "false" />
+    <column name="indica_otras" type="INTEGER" size="1" required= "false" />
+    <column name="indic_fap" type="INTEGER" size="1" required= "false" />
+    <column name="indic_rp" type="INTEGER" size="1" required= "false" />
+    <column name="indic_ep" type="INTEGER" size="1" required= "false" />
+    <column name="indic_ap" type="INTEGER" size="1" required= "false" />
+    <column name="op_colectivos" type="VARCHAR" size="17" required= "false" />
+    <column name="op_otroscol" type="VARCHAR" size="100" required= "false" />
+    <column name="ind_ide" type="INTEGER" size="1" required= "false" />
+    <column name="ind_as" type="INTEGER" size="1" required= "false" />
+    <column name="ind_r" type="INTEGER" size="1" required= "false" />
+    <column name="ind_c" type="INTEGER" size="1" required= "false" />
+    <column name="ind_re" type="INTEGER" size="1" required= "false" />
+    <column name="ind_sal" type="INTEGER" size="1" required= "false" />
+    <column name="ind_sexo" type="INTEGER" size="1" required= "false" />
+    <column name="ind_nif" type="INTEGER" size="1" required= "false" />
+    <column name="ind_ss" type="INTEGER" size="1" required= "false" />
+    <column name="ind_n_a" type="INTEGER" size="1" required= "false" />
+    <column name="ind_ts" type="INTEGER" size="1" required= "false" />
+    <column name="ind_dir" type="INTEGER" size="1" required= "false" />
+    <column name="ind_tel" type="INTEGER" size="1" required= "false" />
+    <column name="ind_huella" type="INTEGER" size="1" required= "false" />
+    <column name="ind_img" type="INTEGER" size="1" required= "false" />
+    <column name="ind_marcas" type="INTEGER" size="1" required= "false" />
+    <column name="ind_firma" type="INTEGER" size="1" required= "false" />
+    <column name="td_otrosprotegidos" type="VARCHAR" size="100" required= "false" />
+    <column name="td_otrostipificados" type="VARCHAR" size="17" required= "false" />
+    <column name="td_otrostiposdatos" type="VARCHAR" size="100" required= "false" />
+    <column name="td_tratamiento" type="VARCHAR" size="1" required= "false" />
+    <column name="seguridad" type="VARCHAR" size="1" required= "false" />
+    <column name="cd_destinatarios" type="VARCHAR" size="17" required= "false" />
+    <column name="cd_otrosdestinatarios" type="VARCHAR" size="100" required= "false" />
+    <column name="paises_destina" type="VARCHAR" size="14" required= "false" />
+    <column name="cat_destina" type="VARCHAR" size="11" required= "false" />
+    <column name="otro_pais_destina" type="LONGVARCHAR" required= "false" />
+    <foreign-key foreignTable="formulario" name="fk_fichero" onDelete="">
+            <reference local="id_fichero" foreign="id_formulario" />
+    </foreign-key>
+  </table>
+
+  <table name="paises">
+    <column name="pid" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="pais" type="VARCHAR" size="80" />
+  </table>
+
+  <table name="taula1">
+    <column name="t1id" type="VARCHAR" size="3" required="true" primaryKey="true"/>
+    <column name="actividad" type="LONGVARCHAR" />
+  </table>
+
+  <table name="taula2">
+    <column name="t2id" type="INTEGER" required="true" primaryKey="true" />
+    <column name="descripcion" type="LONGVARCHAR" />
+  </table>
+
+  <table name="taula3">
+    <column name="t3id" type="VARCHAR"  size="3" required="true" primaryKey="true" />
+    <column name="descripcion" type="LONGVARCHAR" />
+  </table>
+
+  <table name="taula4">
+    <column name="t4id" type="INTEGER" required="true" primaryKey="true" />
+    <column name="descripcion" type="LONGVARCHAR" />
+  </table>
+
+  <table name="taula5">
+    <column name="t5id" type="VARCHAR"  size="5" required="true" primaryKey="true" />
+    <column name="descripcion" type="LONGVARCHAR" />
+  </table>
+
+  <table name="taula7">
+    <column name="t7id" type="VARCHAR"  size="5" required="true" primaryKey="true" />
+    <column name="descripcion" type="LONGVARCHAR" />
+  </table>
+  
+  <table name="tarea">
+      <column name="id_tarea" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+      <column name="id_empresa" type="INTEGER" required="true" />
+      <column name="id_estado_tarea" type="INTEGER" required="true" />
+      <column name="id_usuario" type="INTEGER" required="true" />
+      <column name="avisar_email" type="BOOLEAN" />
+      <column name="avisar_email_fin" type="BOOLEAN" />
+      <column name="es_evento" type="BOOLEAN" />
+      <column name="fecha_inicio" type="TIMESTAMP" />
+      <column name="fecha_vencimiento" type="TIMESTAMP" />
+      <column name="resumen" type="VARCHAR" size="255" />
+      <column name="descripcion" type="LONGVARCHAR" />
+      <column name="id_campo" type="INTEGER" />
+      <column name="id_formulario" type="INTEGER" />
+      <column name="created_at" type="TIMESTAMP" />
+      <column name="updated_at" type="TIMESTAMP" />
+      <foreign-key foreignTable="formulario" name="fk_tarea_formulario" onDelete="">
+              <reference local="id_formulario" foreign="id_formulario" />
+      </foreign-key>
+      <foreign-key foreignTable="campo" name="fk_tarea_campo" onDelete="">
+              <reference local="id_campo" foreign="id_campo" />
+      </foreign-key>
+      <foreign-key foreignTable="usuario" name="fk_tarea_usuario" onDelete="">
+              <reference local="id_usuario" foreign="id_usuario" />
+      </foreign-key>
+      <foreign-key foreignTable="parametro" name="fk_tarea_parametro" onDelete="">
+              <reference local="id_estado_tarea" foreign="id_parametro" />
+      </foreign-key>
+      <foreign-key foreignTable="empresa" name="fk_tarea_empresa" onDelete="">
+              <reference local="id_empresa" foreign="id_empresa" />
+      </foreign-key>
+  </table>
+
+  <table name="documentos" phpName="Documento">
+    <column name="id_documento" type="INTEGER" primaryKey="true" required="true" autoIncrement="true"/>
+    <column name="id_empresa" type="INTEGER" />
+    <column name="nombre" type="VARCHAR" size="250" />
+    <column name="id_item" type="INTEGER" />
+    <foreign-key foreignTable="empresa" name="documento_empresa">
+      <reference local="id_empresa" foreign="id_empresa"/>
+    </foreign-key>
+    <foreign-key foreignTable="item" name="rel_item">
+      <reference local="id_item" foreign="id_item"/>
+    </foreign-key>
+  </table>
+
+    <table name="historico_documentos" phpName="HistoricoDocumento">
+    <column name="id_documento" type="INTEGER" primaryKey="true" required="true" />
+    <column name="version" type="VARCHAR" size="50" primaryKey="true" required="true" />
+    <column name="id_empresa" type="INTEGER" />
+    <column name="id_usuario" type="INTEGER" />
+    <column name="nombre_fich" type="VARCHAR" size="250" />
+    <column name="tamano" type="INTEGER" />
+    <column name="fecha" type="TIMESTAMP" />
+    <column name="mime" type="VARCHAR" size="100" />
+    <foreign-key foreignTable="empresa" name="hist_documento_empresa">
+      <reference local="id_empresa" foreign="id_empresa"/>
+    </foreign-key>
+    <foreign-key foreignTable="documentos" name="docu_docu">
+      <reference local="id_documento" foreign="id_documento"/>
+    </foreign-key>
+    <foreign-key foreignTable="usuario" name="hist_documento_usuario">
+      <reference local="id_usuario" foreign="id_usuario"/>
+    </foreign-key>
+  </table>
+  
+  <table name="clientes" phpName="Encargado">
+    <column name="id_cliente" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
+    <column name="id_empresa" type="INTEGER" />
+    <column name="nombre" type="LONGVARCHAR" />
+    <column name="razon_social" type="LONGVARCHAR" />
+    <column name="cif" type="VARCHAR" size="10" />
+    <column name="contacto" type="LONGVARCHAR" />
+    <column name="telefono" type="VARCHAR" size="12" />
+    <column name="fax" type="VARCHAR" size="12" />
+    <column name="movil" type="VARCHAR" size="12" />
+    <column name="domicilio" type="LONGVARCHAR" />
+    <column name="poblacion" type="VARCHAR" size="50" />
+    <column name="codigo_postal" type="VARCHAR" size="9" />
+    <column name="provincia" type="VARCHAR" size="150" />
+    <foreign-key foreignTable="empresa" name="clientes_empresa">
+      <reference local="id_empresa" foreign="id_empresa"/>
+    </foreign-key>
+  </table>
+</database>

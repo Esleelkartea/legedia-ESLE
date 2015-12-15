@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/22/lib/symfony/util
+END
+sfBrowserBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/8/lib/symfony/util/sfBrowserBase.class.php
+END
+sfParameterHolder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfParameterHolder.class.php
+END
+sfCallable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfCallable.class.php
+END
+sfNamespacedParameterHolder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfNamespacedParameterHolder.class.php
+END
+sfBrowser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfBrowser.class.php
+END
+sfContext.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfContext.class.php
+END
+sfInflector.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfInflector.class.php
+END
+sfToolkit.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/8/lib/symfony/util/sfToolkit.class.php
+END
+sfFinder.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/8/lib/symfony/util/sfFinder.class.php
+END
+sfDomCssSelector.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/lib/symfony/util/sfDomCssSelector.class.php
+END

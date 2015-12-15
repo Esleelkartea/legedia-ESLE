@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/creole
+END
+CreoleTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/creole/CreoleTask.php
+END
+CreoleSQLExecTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/creole/CreoleSQLExecTask.php
+END

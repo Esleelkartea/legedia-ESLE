@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine
+END
+UserGroupFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/UserGroupFormFilter.class.php
+END
+GroupFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/GroupFormFilter.class.php
+END
+ProfileFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/ProfileFormFilter.class.php
+END
+ArticleTranslationFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/ArticleTranslationFormFilter.class.php
+END
+AuthorFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/AuthorFormFilter.class.php
+END
+BaseFormFilterDoctrine.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/BaseFormFilterDoctrine.class.php
+END
+GroupPermissionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/GroupPermissionFormFilter.class.php
+END
+UniqueTestFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/UniqueTestFormFilter.class.php
+END
+myDoctrineRecordFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/myDoctrineRecordFormFilter.class.php
+END
+CamelCaseFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/CamelCaseFormFilter.class.php
+END
+UserFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/UserFormFilter.class.php
+END
+ArticleFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/ArticleFormFilter.class.php
+END
+SubscriptionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/SubscriptionFormFilter.class.php
+END
+UserPermissionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/UserPermissionFormFilter.class.php
+END
+PermissionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/filter/doctrine/PermissionFormFilter.class.php
+END

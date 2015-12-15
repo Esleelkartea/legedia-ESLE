@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repo/legedia/!svn/ver/67/lib/symfony/debug
+END
+sfWebDebugPanelMemory.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanelMemory.class.php
+END
+sfWebDebugPanelSymfonyVersion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanelSymfonyVersion.class.php
+END
+sfTimer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfTimer.class.php
+END
+sfWebDebug.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/67/lib/symfony/debug/sfWebDebug.class.php
+END
+sfWebDebugPanel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanel.class.php
+END
+sfWebDebugPanelTimer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanelTimer.class.php
+END
+sfDebug.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/6/lib/symfony/debug/sfDebug.class.php
+END
+sfWebDebugPanelCache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanelCache.class.php
+END
+sfWebDebugPanelLogs.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfWebDebugPanelLogs.class.php
+END
+sfWebDebugPanelConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/6/lib/symfony/debug/sfWebDebugPanelConfig.class.php
+END
+sfTimerManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/1/lib/symfony/debug/sfTimerManager.class.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/benchmarks
+END
+mem_sending_with_swift.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/benchmarks/mem_sending_with_swift.php
+END
+time_sending_with_swift.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/benchmarks/time_sending_with_swift.php
+END
+mem_attachments_with_swift.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/benchmarks/mem_attachments_with_swift.php
+END

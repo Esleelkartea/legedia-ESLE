@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/67/apps/frontend/modules/panel/templates
+END
+_index_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_index_messages.php
+END
+_mensajes_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_mensajes_list.php
+END
+_calendario.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/67/apps/frontend/modules/panel/templates/_calendario.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/67/apps/frontend/modules/panel/templates/indexSuccess.php
+END
+_mensajes.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/67/apps/frontend/modules/panel/templates/_mensajes.php
+END
+_mensajes_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_mensajes_td_tabular.php
+END
+_mensajes_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_mensajes_th_tabular.php
+END
+cambiarcalendarioSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/61/apps/frontend/modules/panel/templates/cambiarcalendarioSuccess.php
+END
+_show_creditos.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_show_creditos.php
+END
+_index_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_index_header.php
+END
+_notas_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_notas_list.php
+END
+_acciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/61/apps/frontend/modules/panel/templates/_acciones.php
+END
+_notas.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_notas.php
+END
+_index_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_index_footer.php
+END
+_notas_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_notas_td_tabular.php
+END
+_notas_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/panel/templates/_notas_th_tabular.php
+END

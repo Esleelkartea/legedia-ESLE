@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web
+END
+frontend_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/frontend_dev.php
+END
+frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/frontend.php
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/robots.txt
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/.htaccess
+END
+backend_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/backend_dev.php
+END
+backend.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/backend.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/web/index.php
+END

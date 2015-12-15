@@ -1,0 +1,92 @@
+10
+
+dir
+70
+http://serv107/repo/legedia/lib/symfony/plugins/sfCompat10Plugin/lib
+http://serv107/repo/legedia
+
+
+
+2010-09-09T15:05:19.042601Z
+67
+kam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cecd30a9-d62e-4093-b7f9-af66687f38ca
+
+cache
+dir
+
+config
+dir
+
+filter
+dir
+
+validator
+dir
+
+sfMail.class.php
+file
+
+
+
+
+2010-09-10T12:06:33.000000Z
+851bdced7a73156ca4ffc0eaed7c46c6
+2009-06-17T16:19:27.921225Z
+1
+neofis
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7875
+
+request
+dir
+
+view
+dir
+
+bridge
+dir
+
+util
+dir
+
+vendor
+dir
+
+exception
+dir
+

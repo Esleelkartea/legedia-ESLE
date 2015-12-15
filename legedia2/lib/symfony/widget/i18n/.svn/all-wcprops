@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repo/legedia/!svn/ver/22/lib/symfony/widget/i18n
+END
+sfWidgetFormI18nSelectCurrency.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nSelectCurrency.class.php
+END
+sfWidgetFormI18nDateTime.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nDateTime.class.php
+END
+sfWidgetFormI18nDate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nDate.class.php
+END
+sfWidgetFormI18nTime.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nTime.class.php
+END
+sfWidgetFormI18nSelectCountry.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nSelectCountry.class.php
+END
+sfWidgetFormI18nSelectLanguage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/lib/symfony/widget/i18n/sfWidgetFormI18nSelectLanguage.class.php
+END

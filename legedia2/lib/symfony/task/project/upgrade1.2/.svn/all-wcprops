@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/22/lib/symfony/task/project/upgrade1.2
+END
+sfPropel13Upgrade.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/upgrade1.2/sfPropel13Upgrade.class.php
+END
+sfConfigurationUpgrade.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/upgrade1.2/sfConfigurationUpgrade.class.php
+END
+sfPluginAssetsUpgrade.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/upgrade1.2/sfPluginAssetsUpgrade.class.php
+END
+sfPropelIniUpgrade.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/upgrade1.2/sfPropelIniUpgrade.class.php
+END
+sfFactories12Upgrade.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/lib/symfony/task/project/upgrade1.2/sfFactories12Upgrade.class.php
+END

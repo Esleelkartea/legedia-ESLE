@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests
+END
+TestOfAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfAuthenticator.php
+END
+TestOfPLAINAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfPLAINAuthenticator.php
+END
+TestOfPop3Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfPop3Connection.php
+END
+TestOfCRAMMD5Authenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfCRAMMD5Authenticator.php
+END
+TestOfLOGINAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfLOGINAuthenticator.php
+END
+TestOfPopB4SmtpAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/AuthenticationTests/TestOfPopB4SmtpAuthenticator.php
+END

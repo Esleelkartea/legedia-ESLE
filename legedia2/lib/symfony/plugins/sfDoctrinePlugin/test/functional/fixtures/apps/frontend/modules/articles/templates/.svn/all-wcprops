@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/articles/templates
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/articles/templates/editSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/articles/templates/indexSuccess.php
+END

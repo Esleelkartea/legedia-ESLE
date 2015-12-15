@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/apps/frontend/modules/i18n/templates
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/apps/frontend/modules/i18n/templates/indexSuccess.php
+END
+movieSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/apps/frontend/modules/i18n/templates/movieSuccess.php
+END

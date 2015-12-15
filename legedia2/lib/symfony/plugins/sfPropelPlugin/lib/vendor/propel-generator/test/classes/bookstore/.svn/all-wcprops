@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/bookstore
+END
+BookstoreTestBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/bookstore/BookstoreTestBase.php
+END
+BookstoreDataPopulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/bookstore/BookstoreDataPopulator.php
+END

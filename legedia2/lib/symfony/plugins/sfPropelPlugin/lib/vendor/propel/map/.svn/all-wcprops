@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map
+END
+ColumnMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map/ColumnMap.php
+END
+DatabaseMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map/DatabaseMap.php
+END
+ValidatorMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map/ValidatorMap.php
+END
+MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map/MapBuilder.php
+END
+TableMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel/map/TableMap.php
+END

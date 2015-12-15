@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Iterator.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Exception.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Abstract.php
+END
+UnknownPropertyException.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/UnknownPropertyException.php
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Filter.php
+END
+Listener.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Listener.php
+END
+Generator.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Generator.php
+END

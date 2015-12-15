@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing
+END
+ProjectComponent.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/ProjectComponent.php
+END
+BuildLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/BuildLogger.php
+END
+IntrospectionHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/IntrospectionHelper.php
+END
+BuildEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/BuildEvent.php
+END
+Task.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/Task.php
+END
+TaskAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/TaskAdapter.php
+END
+RuntimeConfigurable.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/RuntimeConfigurable.php
+END
+BuildListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/BuildListener.php
+END
+Phing.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/Phing.php
+END
+TaskContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/TaskContainer.php
+END
+Project.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/Project.php
+END
+UnknownElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/UnknownElement.php
+END
+BuildException.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/BuildException.php
+END
+ConfigurationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/ConfigurationException.php
+END
+Target.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/Target.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener
+END
+AnsiColorLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/AnsiColorLogger.php
+END
+StreamRequiredBuildLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/StreamRequiredBuildLogger.php
+END
+defaults.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/defaults.properties
+END
+PearLogListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/PearLogListener.php
+END
+XmlLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/XmlLogger.php
+END
+NoBannerLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/NoBannerLogger.php
+END
+DefaultLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/listener/DefaultLogger.php
+END

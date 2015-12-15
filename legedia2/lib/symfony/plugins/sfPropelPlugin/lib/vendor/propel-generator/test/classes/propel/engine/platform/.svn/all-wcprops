@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/platform
+END
+DefaultPlatformTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/platform/DefaultPlatformTest.php
+END
+PlatformTestBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/platform/PlatformTestBase.php
+END
+SqlitePlatformTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/engine/platform/SqlitePlatformTest.php
+END

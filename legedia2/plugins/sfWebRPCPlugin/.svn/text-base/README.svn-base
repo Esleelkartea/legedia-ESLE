@@ -1,0 +1,28 @@
+= sfWebRPC Plugin =
+
+== Overview ==
+sfWebRPCPlugin make it ultra easy to make it ultra easy to write rpc
+server with symfony. Currently it support xmlrpc, json and jsonp call.
+
+
+see test/functional/frontend/sfWebRPCPluginTest.php in the plugin for example of how to call it.
+
+see modules/sfWebRPCPluginDemo for example on how to serve calls.
+
+
+== Tips ==
+To test my rpc servers, i use python. here is how:
+{{{
+	import xmlrpclib
+	proxy = xmlrpclib.ServerProxy("http://example.com/sfWebRPCDemo/RPC2")
+	proxy.add(2,3)
+}}}
+
+== TODO ==
+ * to complete the documentation
+ * to complete the module example. all is good up to the routing...
+
+== License ==
+
+For the full copyright and license information, please view the LICENSE
+file that was distributed with this source code.

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/plugins/.registry/.channel.pear.symfony-project.com
+END
+symfony.reg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/plugins/.registry/.channel.pear.symfony-project.com/symfony.reg
+END
+sfwebrpcplugin.reg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/1/plugins/.registry/.channel.pear.symfony-project.com/sfwebrpcplugin.reg
+END

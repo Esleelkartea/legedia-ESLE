@@ -1,0 +1,439 @@
+/*Ana: */
+#sf_admin_container .sf_admin_action_elegir
+{
+
+  background: url('../images/icons/filter.png') no-repeat 3px 2px;
+  border-right: 4px solid #341 !important;
+  padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#sf_admin_container .sf_admin_action_form
+{
+
+  background: url('../images/icons/chart_organisation.png') no-repeat 3px 2px;
+  border-right: 4px solid #341 !important; 
+}
+
+/*Ana: */
+#sf_admin_container .sf_admin_action_cancelar
+{
+
+  background: url('../images/icons/cancel.png') no-repeat 3px 2px;
+  border-right: 4px solid #E75C58 !important;
+  padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+ 
+}
+
+/*Ana: */
+#sf_admin_container .sf_admin_action_entrar
+{
+
+  background: url('../images/icons/save.png') no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+  padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+ 
+}
+
+/*Ana: */
+#sf_admin_container .sf_admin_action_borrar
+{
+  background: url('../images/icons/delete.png') no-repeat 3px 2px;
+  border-right: 4px solid #E75C58 !important;
+   padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+/*Ana: */
+#sf_admin_container .sf_admin_action_guardar
+{
+   background: url('../images/icons/save.png') no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+   padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#sf_admin_container .sf_admin_action_save_sin_input
+{
+  background: url('../images/icons/save.png') no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+  padding: 3px 3px 3px 20px;
+  color: #333;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  border: 0px;
+  border-right: 4px solid #999;
+  background-color: #ffc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+
+/*******************Roberto******************/
+
+#sf_admin_container .grid2col h3
+{
+  padding: 0;
+  padding-left: 25px;
+  //background: #ddd;
+  background-position: 5px 2px;
+  background-repeat: no-repeat;
+}
+
+#sf_admin_container .grid2col h3.email
+{
+  background-image: url('../images/icons/email.png');
+
+}
+
+#sf_admin_container .grid2col h3.tarea
+{
+  background-image: url('../images/icons/clock.png');
+}
+
+#sf_admin_container h3.evento
+{
+  background-image: url('../images/icons/calendar.png');
+}
+
+
+#sf_admin_container .grid2col h3.sms
+{
+  background-image: url('../images/icons/phone.png');
+}
+
+
+.sf_edit_help
+{
+  color: #aaa;
+}
+
+fieldset.accesos_directos {
+
+	border:2px solid #CCC;		
+	background-color:#f7f7f7;
+
+}
+
+fieldset.accesos_directos h2   {
+
+	background-color: #CCC;
+
+}
+
+fieldset.accesos_naranja {
+
+	border:2px solid #ffba73;		
+	background-color:#FFEAD5;
+
+}
+
+fieldset.accesos_naranja h2   {
+
+	background-color: #ffba73;
+
+}
+
+fieldset.accesos_verde {
+
+	border:2px solid #AEB78E;		
+	background-color: #F8FDE5;
+
+}
+
+fieldset.accesos_verde h2   {
+
+	background-color: #AEB78E;
+
+}
+
+fieldset.accesos_azul {
+
+	border:2px solid #ABBEEA;		
+	background-color: #F1F4FD;
+
+}
+
+fieldset.accesos_azul h2   {
+
+	background-color: #ABBEEA;
+
+}
+
+fieldset.accesos_amarillo {
+
+        border:2px solid #FFE573;               
+        background-color: #FFFFCC;
+
+}
+
+fieldset.accesos_amarillo h2   {
+
+        background-color: #FFE573;
+
+}
+
+
+
+#sf_admin_container dl.listaaccesos
+{
+  margin:2px;
+  float: none;
+}
+#sf_admin_container dl.listaaccesos dt
+{
+  /*background-color: #eee;*/
+  padding: 3px 3px 3px 25px;
+  vertical-align:middle;
+  width: 75%;
+  float: left;
+  margin: 1px 0;
+}
+#sf_admin_container dl.listaaccesos dd
+{
+  float: right;
+
+  text-align: right;
+  margin-left: auto;
+  min-width: 1.2em;
+  font-weight: bold;
+  padding:3px;
+  margin: 1px 0;
+}
+
+.icon_clientes
+{
+  background: url('../images/icons/group.png') no-repeat 3px 2px !important;
+}
+
+.icon_warning
+{
+  background: url('../images/icons/warning.png') no-repeat 3px 2px !important;
+}
+
+
+
+#sf_admin_container .sf_auxiliar_data dt.success {
+  font-weight: bold;
+  color: #fff;
+  margin: 0 !important;
+  padding: 2px 5px 2px 25px;
+  background: #73B65A url('../images/icons/ok.png') no-repeat 3px 2px;
+}
+#sf_admin_container .sf_auxiliar_data dt.processing {
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 2px 5px 2px 25px;
+  background: #ffc url('../images/icons/bullet_go.png') no-repeat 3px 2px;
+}
+#sf_admin_container .sf_auxiliar_data dt.waiting {
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 2px 5px 2px 25px;
+  background: #F7F7F7 url('../images/icons/time.png') no-repeat 3px 2px;
+}
+#sf_admin_container .sf_auxiliar_data dt.cancel {
+  font-weight: bold;
+  color: #fff;
+  margin: 0 !important;
+  padding: 2px 5px 2px 25px;
+  background: #FF7373 url('../images/icons/error.png') no-repeat 3px 2px;
+}
+
+#sf_admin_container .sf_admin_action_refresh
+{
+  background: url('../images/icons/refresh.png') no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .icon_tabla
+{
+  background: url('../images/icons/house.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_tarea
+{
+  background: url('../images/icons/edit.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_planeado
+{
+  background: url('../images/icons/time.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_en_progreso
+{
+  background: url('../images/icons/bullet_go.png') no-repeat 3px 2px !important;
+}
+
+#sf_admin_container .icon_evento
+{
+  background: url('../images/icons/calendar.png') no-repeat 3px 2px !important;
+}
+
+.icon_money
+{
+  background: url('../images/icons/money.png') no-repeat 3px 2px !important;
+}
+
+
+#sf_admin_container .sf_admin_action_security
+{
+  background: url('../images/icons/lock.png') no-repeat 3px 2px;
+  border-right: 4px solid #F1D643 !important;
+}
+
+.link_especial {
+   color: #fff !important;
+}
+
+
+#sf_admin_container .sf_admin_action_marketing
+{
+  background: url('../images/icons/briefcase.png') no-repeat 3px 2px;
+  border-right: 4px solid #ffba73 !important;
+}
+
+#sf_admin_container .sf_admin_action_cita
+{
+  background: url('../images/icons/calendar.png') no-repeat 3px 2px;
+  border-right: 4px solid #73B65A !important;
+}
+
+#sf_admin_container .sf_admin_action_incidencia
+{
+  background: url('../images/icons/information.png') no-repeat 3px 2px;
+  border-right: 4px solid #FF5F5F !important;
+}
+
+/* GRID */
+.column { float: left; }
+.grid2col, .grid3col, { width: 50%; }
+
+.grid2col .column { width: 49%; }
+.grid2col .grid2col .column { width: 47.8%; }
+.grid3col .grid2col .column { width: 46%; }
+
+.grid3col .column { width: 32%; margin-left: 2%; }
+.grid2col .grid3col .column { width: 31%; }
+
+.column.first, .column.last { margin-left: 0 !important; }
+.column.last { float: right !important; }
+
+
+ul.acciones_llamadas
+{
+  list-style-type: none;
+}
+
+ul.acciones_llamadas li
+{
+  margin-top: 10px;
+}
+ul.acciones_llamadas li a { 
+  padding: 8px;
+ 
+  background-position: 5px 7px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  
+ 
+  display: block; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 1.1em; 
+  color: #555;  
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+
+  background-image: url('../images/icons/phone.png');
+}
+ul.acciones_llamadas li a.activo:hover
+{
+  background-color: #8CAB76;
+} 
+
+ul.acciones_llamadas li a.inactivo:hover
+{
+  background-color: #9D9A7D;
+} 
+
+ul.acciones_llamadas a.activo
+{
+  background-color: #ADE486; 
+}
+
+ul.acciones_llamadas a.inactivo
+{
+  background-color: #E1DCB3;
+}
+
+
+ul.acciones_siguiente
+{
+  list-style-type: none;
+}
+
+ul.acciones_siguiente li
+{
+  margin-top: 10px;
+}
+ul.acciones_siguiente li a { 
+  padding: 8px;
+ 
+ 
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  float:right;
+  
+  display: block; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 1.1em; 
+  color: #555;  
+
+}
+
+ul.acciones_siguiente li a.siguiente:hover
+{
+  background-color: #8CAB76;
+} 
+ul.acciones_siguiente a.siguiente
+{
+  background-color: #E1DCB3; 
+}
+
+
+

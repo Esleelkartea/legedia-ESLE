@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repo/legedia/!svn/ver/73/web/prueba
+END
+servidor.cer
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repo/legedia/!svn/ver/73/web/prueba/servidor.cer
+END
+privkey.pem
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repo/legedia/!svn/ver/73/web/prueba/privkey.pem
+END
+sign.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/73/web/prueba/sign.js
+END
+xmlseclibs.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repo/legedia/!svn/ver/73/web/prueba/xmlseclibs.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/legedia/!svn/ver/73/web/prueba/index.php
+END
+servidor.pem
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repo/legedia/!svn/ver/73/web/prueba/servidor.pem
+END
+xmlResponseProba.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/73/web/prueba/xmlResponseProba.class.php
+END

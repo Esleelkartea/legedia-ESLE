@@ -1,0 +1,139 @@
+form label{
+	display:block;
+	margin-top:5px;
+}
+form textarea, form select{
+	font-size:1em;
+	display:block;
+	padding:1px;
+	
+}
+
+
+
+form textarea{
+	font-family:"Trebuchet MS", Arial, Verdana;
+	font-size:1em;
+	width:90%;
+	height:80px;
+}
+
+
+
+form span.error{
+	color:#FF5F5F
+}
+
+
+#sf_admin_container .form-row
+{
+  
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  min-height:30px;
+  height:expression(document.body.clientHeight > 30 ? "30px" : "auto")
+}
+
+#sf_admin_container .form-row .content
+{
+  padding-left: 30%;
+}
+
+#sf_admin_container .form-errors
+{
+
+  margin-bottom: 10px;
+  border: 1px solid #f33;
+  background-color: #f33;
+}
+
+#sf_admin_container .form-errors h2
+{
+  padding: 5px 20px 5px 25px;
+  font-size: 11px;
+  color: #fff;
+  background: #f33 url('../images/icons/exclamation.png') no-repeat 5px 2px;
+}
+
+#sf_admin_container .save-ok
+{
+  margin-bottom: 10px;
+  border: 1px solid #73B65A;
+}
+
+#sf_admin_container .save-ok h2
+{
+  margin: 0 !important;
+  padding: 5px 20px 5px 25px;
+  font-size: 11px;
+  color: #fff;
+  background: #73B65A url('..//images/icons/ok.png') no-repeat 5px 2px;
+}
+
+
+#sf_admin_container .form-errors dl
+{
+  padding: 5px;
+}
+
+#sf_admin_container .form-errors dt
+{
+  font-weight: bold;
+  float: left;
+  padding-right: 5px;
+}
+
+#sf_admin_container .form-errors dd
+{
+  margin: 0;
+}
+
+#sf_admin_container .form-error
+{
+  color: #f33;
+}
+
+#sf_admin_container .form-error input, #sf_admin_container .form-error select, #sf_admin_container .form-error textarea
+{
+  border: 1px solid #f33;
+}
+/*
+
+#sf_admin_container .form-row .content0
+{
+  padding-left: 9em;
+    width:50%;
+  float: left;
+}
+
+#sf_admin_container .form-row .content1
+{
+  padding-left: 9em;
+    width:40%;
+  float: right;
+}
+
+#sf_admin_container .form-row0
+{ 
+
+  padding: 10px;
+  border: 1px solid #ddd;
+  min-height:30px;
+  height:expression(document.body.clientHeight > 30 ? "30px" : "auto");
+  width:45%;
+  float: right;
+ 
+}
+#sf_admin_container .form-row1
+{
+
+  padding: 10px;
+  border: 1px solid #ddd;
+  min-height:30px;
+  height:expression(document.body.clientHeight > 30 ? "30px" : "auto");
+  width:45%;
+  float: left;
+  
+}
+*/
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache
+END
+Disk.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache/Disk.php
+END
+OutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache/OutputStream.php
+END
+JointOutputStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache/JointOutputStream.php
+END
+Memory.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/lib/Swift/Cache/Memory.php
+END

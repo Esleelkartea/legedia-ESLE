@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpdoc
+END
+PhpDocumentorTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpdoc/PhpDocumentorTask.php
+END
+PhpDocumentorExternalTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpdoc/PhpDocumentorExternalTask.php
+END
+PhingPhpDocumentorSetup.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpdoc/PhingPhpDocumentorSetup.php
+END

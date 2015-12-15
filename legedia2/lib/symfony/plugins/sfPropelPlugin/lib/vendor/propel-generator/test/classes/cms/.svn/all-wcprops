@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/cms
+END
+CmsTestBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/cms/CmsTestBase.php
+END
+CmsDataPopulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/cms/CmsDataPopulator.php
+END

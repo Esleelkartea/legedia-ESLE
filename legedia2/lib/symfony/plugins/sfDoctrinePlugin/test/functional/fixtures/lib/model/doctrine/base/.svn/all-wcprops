@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base
+END
+BaseUserGroup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseUserGroup.class.php
+END
+BaseGroup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseGroup.class.php
+END
+BaseCamelCase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseCamelCase.class.php
+END
+BaseUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseUser.class.php
+END
+BaseProfile.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseProfile.class.php
+END
+BaseAuthor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseAuthor.class.php
+END
+BaseArticle.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseArticle.class.php
+END
+BaseSubscription.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseSubscription.class.php
+END
+BaseGroupPermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseGroupPermission.class.php
+END
+BaseUniqueTest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseUniqueTest.class.php
+END
+BaseUserPermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BaseUserPermission.class.php
+END
+BasePermission.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repo/legedia/!svn/ver/17/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/base/BasePermission.class.php
+END

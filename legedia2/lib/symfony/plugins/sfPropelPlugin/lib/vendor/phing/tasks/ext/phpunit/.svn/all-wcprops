@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit
+END
+PHPUnitTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/PHPUnitTask.php
+END
+FormatterElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/FormatterElement.php
+END
+BatchTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/BatchTest.php
+END
+PHPUnitTestRunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/PHPUnitTestRunner.php
+END
+PHPUnitUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/PHPUnitUtil.php
+END
+PHPUnitReportTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/phpunit/PHPUnitReportTask.php
+END

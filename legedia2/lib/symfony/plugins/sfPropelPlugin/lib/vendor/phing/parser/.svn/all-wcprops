@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser
+END
+DataTypeHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/DataTypeHandler.php
+END
+ProjectConfigurator.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/ProjectConfigurator.php
+END
+NestedElementHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/NestedElementHandler.php
+END
+ExpatParseException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/ExpatParseException.php
+END
+AbstractSAXParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/AbstractSAXParser.php
+END
+ExpatParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/ExpatParser.php
+END
+TaskHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/TaskHandler.php
+END
+AbstractHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/AbstractHandler.php
+END
+RootHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/RootHandler.php
+END
+ProjectHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/ProjectHandler.php
+END
+TargetHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/TargetHandler.php
+END
+Location.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/parser/Location.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql/oracle
+END
+OracleDDLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql/oracle/OracleDDLBuilder.php
+END
+OracleDataSQLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql/oracle/OracleDataSQLBuilder.php
+END

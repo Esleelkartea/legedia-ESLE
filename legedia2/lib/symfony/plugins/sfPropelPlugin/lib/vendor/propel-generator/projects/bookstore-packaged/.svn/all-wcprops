@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged
+END
+log.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/log.schema.xml
+END
+review.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/review.schema.xml
+END
+author.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/author.schema.xml
+END
+runtime-conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/runtime-conf.xml
+END
+book.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/book.schema.xml
+END
+book_club_list.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/book_club_list.schema.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/build.properties
+END
+publisher.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/publisher.schema.xml
+END
+media.schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/bookstore-packaged/media.schema.xml
+END

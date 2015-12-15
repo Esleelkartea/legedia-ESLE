@@ -1,0 +1,156 @@
+cssTabs:
+
+  # general config
+  configTabs:
+    div:           {id: navcontainer}
+    mt_ul:         {id: adminmenu}
+    mi_ul:         {id: miadminmenu}
+    mt_li:         {id: active}
+    mt_a:          {class: current}
+    st_ul:         {id: submenu}
+    st_li:         {id: activeII}
+    st_a:          {class: current}
+
+  # Configuration of the main Tabs   // tipo_panel = 1 --> GENERAL  tipo_panel = 2 --> CHEQUEO TECNOLOGICO tipo_panel = 0 --> TODOS
+  
+  mainTabs:
+    - 
+      label:       PRINCIPAL
+      module:      panel
+      action:      'index'
+      tipo:        0
+      linkOptions: {}
+
+     
+    - 
+      label:       EMPRESAS
+      module:      empresas
+      action:      'index'
+      tipo:        0
+      linkOptions: {}
+  
+    - 
+      label:       DEF. TABLAS
+      module:      tablas
+      action:      'index'
+      tipo:        0
+      linkOptions: {}
+
+    - 
+      label:       REGISTROS
+      module:      formularios
+      action:      'index'
+      tipo:        0
+      linkOptions: {}
+      
+    - 
+      label:       CONFIGURACIÓN  
+      module:      usuarios
+      action:      'index'
+      tipo:        0
+      linkOptions: {}
+                        
+    - 
+      label:       ACERCA DE...
+      module:      content
+      action:      'about'
+      tipo:        0
+      linkOptions: {}
+     
+                  
+  # Configuration of the sub Tabs
+  subTabs:
+    #  Principal (Incio, mensajes)
+    - 
+      label:       Inicio
+      module:      panel
+      action:      'index'
+      linkOptions: {}
+      parentTab:   panel
+      
+    - 
+      label:       Mensajes
+      module:      mensajes
+      action:      'index'
+      linkOptions: {}
+      parentTab:   panel
+
+    - 
+      label:       Mis preferencias
+      module:      preferencias
+      action:      'index'
+      linkOptions: {}
+      parentTab:   panel
+     
+    - 
+      label:       Tareas
+      module:      tareas
+      action:      'index'
+      linkOptions: {}
+      parentTab:   panel     
+  
+    # Configuración (Parámetros, usuarios, grupos, visor de acciones, idiomas, traducciones)     
+    - 
+      label:       Parametros
+      module:      parametros
+      action:      'index'
+      linkOptions: {}
+      parentTab:   usuarios
+      
+    - 
+      label:       Usuarios
+      module:      usuarios
+      action:      'list'
+      linkOptions: {}
+      parentTab:   usuarios
+      
+    - 
+      label:       Grupos
+      module:      grupos
+      action:      'list'
+      linkOptions: {}
+      parentTab:   usuarios
+          
+    - 
+      label:       Visor de Acciones
+      module:      sesiones
+      action:      'index'
+      linkOptions: {}
+      parentTab:   usuarios  
+
+    - 
+      label:       Backups
+      module:      backups
+      action:      'index'
+      linkOptions: {}
+      parentTab:   usuarios  
+            
+    - 
+      label:       Idiomas
+      module:      sfCatalogue
+      action:      'index'
+      linkOptions: {}
+      parentTab:   usuarios
+      
+    - 
+      label:       Traducciones
+      module:      sfTransUnit
+      action:      'index'
+      linkOptions: {}
+      parentTab:   usuarios
+      
+    # Acerca de (acerca de, informe de un error)    
+    - 
+      label:       Acerca de
+      module:      content
+      action:      'about'
+      linkOptions: {}
+      parentTab:   content
+      
+    - 
+      label:       Informe de un error
+      module:      content
+      action:      'bugreport'
+      linkOptions: {}
+      parentTab:   content
+ 

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/22/lib/symfony/task/generator/skeleton/project/config
+END
+propel.ini
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/propel.ini
+END
+schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/schema.yml
+END
+vhost.sample
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/vhost.sample
+END
+rsync_exclude.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/rsync_exclude.txt
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/databases.yml
+END
+ProjectConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/ProjectConfiguration.class.php
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/lib/symfony/task/generator/skeleton/project/config/properties.ini
+END

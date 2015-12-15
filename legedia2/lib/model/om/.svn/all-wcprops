@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repo/legedia/!svn/ver/78/lib/model/om
+END
+BaseCampo.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/81/lib/model/om/BaseCampo.php
+END
+BaseCatalogue.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseCatalogue.php
+END
+BaseItemPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/81/lib/model/om/BaseItemPeer.php
+END
+BaseUsuarioGrupoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/om/BaseUsuarioGrupoPeer.php
+END
+BaseHistoricoDocumento.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/81/lib/model/om/BaseHistoricoDocumento.php
+END
+BaseMensajeDestinoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/81/lib/model/om/BaseMensajeDestinoPeer.php
+END
+BaseParametroDefPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/om/BaseParametroDefPeer.php
+END
+BaseItem.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repo/legedia/!svn/ver/81/lib/model/om/BaseItem.php
+END
+BaseTablaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTablaPeer.php
+END
+BaseUsuarioPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/om/BaseUsuarioPeer.php
+END
+BaseUsuarioGrupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/om/BaseUsuarioGrupo.php
+END
+BaseParametroPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseParametroPeer.php
+END
+BaseMensajeDestino.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/om/BaseMensajeDestino.php
+END
+BaseEmpresaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/om/BaseEmpresaPeer.php
+END
+BaseParametroDef.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/om/BaseParametroDef.php
+END
+BaseNotificacionesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/81/lib/model/om/BaseNotificacionesPeer.php
+END
+BaseRelCampoTablaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/81/lib/model/om/BaseRelCampoTablaPeer.php
+END
+BaseTabla.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTabla.php
+END
+BaseUsuario.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/81/lib/model/om/BaseUsuario.php
+END
+BaseGrupoModuloPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/81/lib/model/om/BaseGrupoModuloPeer.php
+END
+BaseParametro.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseParametro.php
+END
+BaseFormularioPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/om/BaseFormularioPeer.php
+END
+BaseEmpresa.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/81/lib/model/om/BaseEmpresa.php
+END
+BaseNotificaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/om/BaseNotificaciones.php
+END
+BaseAlcancePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/om/BaseAlcancePeer.php
+END
+BaseTransUnitPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTransUnitPeer.php
+END
+BaseRelCampoTabla.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseRelCampoTabla.php
+END
+BaseTareaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTareaPeer.php
+END
+BaseSesionPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseSesionPeer.php
+END
+BaseGrupoModulo.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/om/BaseGrupoModulo.php
+END
+BaseSesionLogPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseSesionLogPeer.php
+END
+BaseFormulario.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseFormulario.php
+END
+BaseAlcance.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/81/lib/model/om/BaseAlcance.php
+END
+BaseTransUnit.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTransUnit.php
+END
+BaseTarea.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTarea.php
+END
+BaseMensajePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/om/BaseMensajePeer.php
+END
+BaseEncargadoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseEncargadoPeer.php
+END
+BasePaisesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BasePaisesPeer.php
+END
+BaseSesion.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseSesion.php
+END
+BaseSesionLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseSesionLog.php
+END
+BaseTaula1Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula1Peer.php
+END
+BaseTaula2Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula2Peer.php
+END
+BaseItemBasePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/om/BaseItemBasePeer.php
+END
+BaseTaula3Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula3Peer.php
+END
+BaseProvinciaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseProvinciaPeer.php
+END
+BaseTaula4Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula4Peer.php
+END
+BaseTaula5Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula5Peer.php
+END
+BaseGrupoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseGrupoPeer.php
+END
+BaseDocumentoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseDocumentoPeer.php
+END
+BaseTaula7Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula7Peer.php
+END
+BaseCampoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseCampoPeer.php
+END
+BaseCataloguePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/om/BaseCataloguePeer.php
+END
+BaseMensaje.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/81/lib/model/om/BaseMensaje.php
+END
+BaseEncargado.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseEncargado.php
+END
+BasePaises.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BasePaises.php
+END
+BaseTaula1.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula1.php
+END
+BaseTaula2.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula2.php
+END
+BaseItemBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/81/lib/model/om/BaseItemBase.php
+END
+BaseTaula3.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula3.php
+END
+BaseProvincia.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseProvincia.php
+END
+BaseTaula4.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula4.php
+END
+BaseTaula5.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula5.php
+END
+BaseGrupo.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/81/lib/model/om/BaseGrupo.php
+END
+BaseTaula7.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/81/lib/model/om/BaseTaula7.php
+END
+BaseDocumento.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/81/lib/model/om/BaseDocumento.php
+END
+BaseHistoricoDocumentoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/81/lib/model/om/BaseHistoricoDocumentoPeer.php
+END

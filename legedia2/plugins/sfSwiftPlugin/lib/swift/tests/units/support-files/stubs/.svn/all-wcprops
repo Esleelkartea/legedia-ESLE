@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/stubs
+END
+DummyConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/stubs/DummyConnection.php
+END
+MimeExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/support-files/stubs/MimeExtension.php
+END

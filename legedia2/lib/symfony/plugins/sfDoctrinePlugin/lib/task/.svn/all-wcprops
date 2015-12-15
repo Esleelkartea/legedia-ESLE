@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/task
+END
+sfDoctrineInsertSqlTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineInsertSqlTask.class.php
+END
+sfDoctrineGenerateModuleForRouteTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateModuleForRouteTask.class.php
+END
+sfDoctrineMigrateTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineMigrateTask.class.php
+END
+sfDoctrineBuildAllLoadTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildAllLoadTask.class.php
+END
+sfDoctrineBuildAllTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildAllTask.class.php
+END
+sfDoctrineBuildFiltersTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildFiltersTask.class.php
+END
+sfDoctrineGenerateMigrationsModelsTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateMigrationsModelsTask.class.php
+END
+sfDoctrineRebuildDbTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineRebuildDbTask.class.php
+END
+sfDoctrineGenerateMigrationsDbTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateMigrationsDbTask.class.php
+END
+sfDoctrineDataDumpTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataDumpTask.class.php
+END
+sfDoctrineGenerateModuleTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateModuleTask.class.php
+END
+sfDoctrineGenerateAdminTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateAdminTask.class.php
+END
+sfDoctrineGenerateMigrationTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineGenerateMigrationTask.class.php
+END
+sfDoctrineBuildDbTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildDbTask.class.php
+END
+sfDoctrineBuildFormsTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildFormsTask.class.php
+END
+sfDoctrineBuildAllReloadTestAllTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildAllReloadTestAllTask.class.php
+END
+sfDoctrineDataLoadTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDataLoadTask.class.php
+END
+sfDoctrineDropDbTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDropDbTask.class.php
+END
+sfDoctrineBaseTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBaseTask.class.php
+END
+sfDoctrineBuildSqlTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildSqlTask.class.php
+END
+sfDoctrineBuildAllReloadTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildAllReloadTask.class.php
+END
+sfDoctrineDqlTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineDqlTask.class.php
+END
+sfDoctrineBuildSchemaTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildSchemaTask.class.php
+END
+sfDoctrineBuildModelTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/task/sfDoctrineBuildModelTask.class.php
+END

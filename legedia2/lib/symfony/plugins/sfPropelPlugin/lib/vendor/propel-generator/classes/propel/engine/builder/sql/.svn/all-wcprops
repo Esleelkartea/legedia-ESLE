@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql
+END
+DDLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql/DDLBuilder.php
+END
+DataSQLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/builder/sql/DataSQLBuilder.php
+END

@@ -1,0 +1,80 @@
+10
+
+dir
+70
+http://serv107/repo/legedia/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures
+http://serv107/repo/legedia
+
+
+
+2009-08-06T14:22:18.361755Z
+22
+kam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cecd30a9-d62e-4093-b7f9-af66687f38ca
+
+test
+dir
+
+apps
+dir
+
+symfony
+file
+
+
+
+
+2010-09-10T11:52:16.000000Z
+36073c1914105fb3bbb4f1ce4965b4d2
+2009-07-22T06:47:36.875958Z
+10
+kam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+482
+
+config
+dir
+
+lib
+dir
+
+data
+dir
+
+web
+dir
+

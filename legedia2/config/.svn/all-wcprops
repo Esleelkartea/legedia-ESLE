@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/repo/legedia/!svn/ver/67/config
+END
+propel.ini
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repo/legedia/!svn/ver/67/config/propel.ini
+END
+schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repo/legedia/!svn/ver/81/config/schema.xml
+END
+schema-transformed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/81/config/schema-transformed.xml
+END
+schema_yy.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/legedia/!svn/ver/50/config/schema_yy.yml
+END
+vhost.sample
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/1/config/vhost.sample
+END
+rsync_exclude.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repo/legedia/!svn/ver/1/config/rsync_exclude.txt
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/legedia/!svn/ver/38/config/databases.yml
+END
+ProjectConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/1/config/ProjectConfiguration.class.php
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/legedia/!svn/ver/1/config/properties.ini
+END

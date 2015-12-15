@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/67/lib/symfony/form
+END
+sfForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/67/lib/symfony/form/sfForm.class.php
+END
+sfFormField.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/67/lib/symfony/form/sfFormField.class.php
+END
+sfFormFieldSchema.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/6/lib/symfony/form/sfFormFieldSchema.class.php
+END
+sfFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/1/lib/symfony/form/sfFormFilter.class.php
+END

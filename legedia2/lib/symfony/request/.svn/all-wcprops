@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repo/legedia/!svn/ver/22/lib/symfony/request
+END
+sfWebRequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/8/lib/symfony/request/sfWebRequest.class.php
+END
+sfRequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/1/lib/symfony/request/sfRequest.class.php
+END
+sfConsoleRequest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/1/lib/symfony/request/sfConsoleRequest.class.php
+END

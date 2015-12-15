@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web
+END
+crud_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/crud_dev.php
+END
+crud.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/crud.php
+END
+frontend_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/frontend_dev.php
+END
+frontend.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/frontend.php
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/robots.txt
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/.htaccess
+END
+backend_dev.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/backend_dev.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/web/index.php
+END

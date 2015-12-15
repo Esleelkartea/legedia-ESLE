@@ -1,0 +1,773 @@
+
+# This is a fix for InnoDB in MySQL >= 4.1.x
+# It "suspends judgement" for fkey relationships until are tables are set.
+SET FOREIGN_KEY_CHECKS = 0;
+
+#-----------------------------------------------------------------------------
+#-- alcance
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `alcance`;
+
+
+CREATE TABLE `alcance`
+(
+	`id_alcance` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`id_empresa` INTEGER(11)  NOT NULL,
+	`id_tabla` INTEGER(11)  NOT NULL,
+	`titulo` VARCHAR(255),
+	`descripcion` TEXT,
+	`ver_todos_registros` TINYINT(4),
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	PRIMARY KEY (`id_alcance`,`id_usuario`),
+	KEY `FI_empresa_alcance`(`id_empresa`),
+	KEY `FI_tabla_alcance`(`id_tabla`),
+	KEY `FI_usuario_alcance`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- campo
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `campo`;
+
+
+CREATE TABLE `campo`
+(
+	`id_campo` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_empresa` INTEGER(11)  NOT NULL,
+	`es_general` TINYINT(4),
+	`es_nombre` INTEGER(1),
+	`nombre` VARCHAR(150),
+	`descripcion` TEXT,
+	`tipo` INTEGER(11),
+	`misma_fila` TINYINT(4) default 0,
+	`en_lista` TINYINT(4) default 0 NOT NULL,
+	`desplegable` TINYINT(4) default 0,
+	`seleccion_multiple` TINYINT(4),
+	`tipo_items` INTEGER(11),
+	`unidad_rangos` VARCHAR(10),
+	`tipo_periodo` INTEGER(11),
+	`valor_tabla` INTEGER(11),
+	`mostrar_en_padre` TINYINT(4),
+	`valor_objeto` VARCHAR(250),
+	`defecto` VARCHAR(250),
+	`obligatorio` TINYINT(4),
+	`tamano` VARCHAR(250),
+	`orden` INTEGER(11),
+	`es_inconsistente` TINYINT(4),
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_campo`),
+	KEY `FI_campo_empresa`(`id_empresa`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- catalogue
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `catalogue`;
+
+
+CREATE TABLE `catalogue`
+(
+	`cat_id` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`nvisible` VARCHAR(100),
+	`name` VARCHAR(100),
+	`source_lang` VARCHAR(100),
+	`target_lang` VARCHAR(100),
+	`date_created` DATETIME,
+	`date_modified` DATETIME,
+	`author` VARCHAR(255),
+	PRIMARY KEY (`cat_id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- empresa
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `empresa`;
+
+
+CREATE TABLE `empresa`
+(
+	`id_empresa` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_provincia` INTEGER(11)  NOT NULL,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`nombre` VARCHAR(150),
+	`id_actividad` VARCHAR(3)  NOT NULL,
+	`telefono` VARCHAR(20),
+	`fax` VARCHAR(20),
+	`email` VARCHAR(50),
+	`domicilio` TEXT,
+	`poblacion` VARCHAR(255),
+	`codigo_postal` VARCHAR(10),
+	`cif` VARCHAR(45),
+	`logo_min` VARCHAR(150),
+	`logo_med` VARCHAR(150),
+	`logo_max` VARCHAR(150),
+	`id_vtiger` INTEGER(11),
+	`smtp_server` VARCHAR(150),
+	`smtp_user` VARCHAR(150),
+	`smtp_password` VARCHAR(255),
+	`smtp_port` INTEGER(11),
+	`sender_address` VARCHAR(150),
+	`sender_name` VARCHAR(100),
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_empresa`),
+	KEY `FI_empresa_provincia`(`id_provincia`),
+	KEY `FI_usuario_empresa`(`id_usuario`),
+	KEY `FI_empresa_actividad`(`id_actividad`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- formulario
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `formulario`;
+
+
+CREATE TABLE `formulario`
+(
+	`id_formulario` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_tabla` INTEGER(11)  NOT NULL,
+	`id_usuario_creador` INTEGER(11)  NOT NULL,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`fecha` DATETIME,
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	PRIMARY KEY (`id_formulario`),
+	KEY `FI_tabla_formulario`(`id_tabla`),
+	KEY `FI_usuario_formulario`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- grupo
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `grupo`;
+
+
+CREATE TABLE `grupo`
+(
+	`id_grupo` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`nombre` VARCHAR(255),
+	`padre` INTEGER(11),
+	PRIMARY KEY (`id_grupo`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- grupo_modulo
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `grupo_modulo`;
+
+
+CREATE TABLE `grupo_modulo`
+(
+	`modulo` VARCHAR(50)  NOT NULL,
+	`accion` VARCHAR(50)  NOT NULL,
+	`id_grupo` INTEGER(11)  NOT NULL,
+	`permiso` TINYINT(4) default 1,
+	PRIMARY KEY (`modulo`,`accion`,`id_grupo`),
+	KEY `FI_grupo_modulo_grupo`(`id_grupo`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- item
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `item`;
+
+
+CREATE TABLE `item`
+(
+	`id_item` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_formulario` INTEGER(11)  NOT NULL,
+	`id_item_base` INTEGER(11)  NOT NULL,
+	`texto_corto` VARCHAR(255),
+	`texto_largo` TEXT,
+	`si_no` TINYINT(4),
+	`texto_auxiliar` VARCHAR(255),
+	`fecha` DATETIME,
+	`numero` INTEGER(11),
+	`id_tabla` INTEGER(11),
+	`id_objeto` INTEGER(11),
+	`anio` INTEGER(11),
+	PRIMARY KEY (`id_item`,`id_formulario`),
+	KEY `FI_item_base_item`(`id_item_base`),
+	KEY `FI_item_formulario`(`id_formulario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- item_base
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `item_base`;
+
+
+CREATE TABLE `item_base`
+(
+	`id_item_base` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_campo` INTEGER(11)  NOT NULL,
+	`texto` VARCHAR(150),
+	`numero_inferior` FLOAT,
+	`numero_superior` FLOAT,
+	`ayuda` VARCHAR(255),
+	`texto_auxiliar` TINYINT(4),
+	`orden` INTEGER(11),
+	`es_inconsistente` TINYINT(4),
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_item_base`),
+	KEY `FI_campo_item`(`id_campo`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- mensaje
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `mensaje`;
+
+
+CREATE TABLE `mensaje`
+(
+	`id_mensaje` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`asunto` VARCHAR(255),
+	`cuerpo` TEXT,
+	`fecha` DATETIME,
+	`email` TINYINT(4),
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_mensaje`),
+	KEY `FI_usuario_mensaje`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- mensaje_destino
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `mensaje_destino`;
+
+
+CREATE TABLE `mensaje_destino`
+(
+	`id_mensaje` INTEGER(11)  NOT NULL,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`leido` TINYINT(4),
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_mensaje`,`id_usuario`),
+	KEY `FI_usuario_mensaje_destino`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- notificaciones
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `notificaciones`;
+
+
+CREATE TABLE `notificaciones`
+(
+	`notid` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`soporte` CHAR  NOT NULL,
+	`tipo` CHAR  NOT NULL,
+	`tipo_noti` TINYINT(1),
+	`id_fichero` INTEGER(11)  NOT NULL,
+	`fecha` VARCHAR(8)  NOT NULL,
+	`hora_proceso` VARCHAR(6)  NOT NULL,
+	`procesado` INTEGER(4) default 0,
+	`hay_que_parar` TINYINT(4) default 0,
+	`modelo` CHAR  NOT NULL,
+	`titularidad` CHAR  NOT NULL,
+	`presentacion` CHAR  NOT NULL,
+	`forma` CHAR  NOT NULL,
+	`id_upload` VARCHAR(22)  NOT NULL,
+	`pf_razon_s` VARCHAR(140)  NOT NULL,
+	`pf_cif_nif` VARCHAR(9)  NOT NULL,
+	`pf_nombre` VARCHAR(35)  NOT NULL,
+	`pf_apellido1` VARCHAR(35)  NOT NULL,
+	`pf_apellido2` VARCHAR(35)  NOT NULL,
+	`pf_nif` VARCHAR(9),
+	`pf_cargo` VARCHAR(70)  NOT NULL,
+	`dec_razon_s` VARCHAR(70)  NOT NULL,
+	`dec_direccion` VARCHAR(100)  NOT NULL,
+	`dec_localidad` VARCHAR(50)  NOT NULL,
+	`dec_cp` VARCHAR(5),
+	`dec_provincia` VARCHAR(2),
+	`dec_pais` VARCHAR(2)  NOT NULL,
+	`dec_tel` VARCHAR(10),
+	`dec_fax` VARCHAR(10),
+	`dec_mail` VARCHAR(70),
+	`dec_forma` TINYINT(1)  NOT NULL,
+	`rf_nombre` VARCHAR(140),
+	`rf_actividad` VARCHAR(3),
+	`rf_cif` VARCHAR(9)  NOT NULL,
+	`rf_domicilio` VARCHAR(100)  NOT NULL,
+	`rf_localidad` VARCHAR(50)  NOT NULL,
+	`rf_cp` VARCHAR(5),
+	`rf_provincia` VARCHAR(2),
+	`rf_pais` VARCHAR(2)  NOT NULL,
+	`rf_tel` VARCHAR(10),
+	`rf_fax` VARCHAR(10),
+	`rf_mail` VARCHAR(70),
+	`dr_nombreof` VARCHAR(70),
+	`dr_cif` VARCHAR(9),
+	`dr_dirpostal` VARCHAR(100),
+	`dr_localidad` VARCHAR(50),
+	`dr_cp` VARCHAR(5),
+	`dr_provincia` VARCHAR(2)  NOT NULL,
+	`dr_pais` VARCHAR(2),
+	`dr_tel` VARCHAR(10),
+	`dr_fax` VARCHAR(10),
+	`dr_mail` VARCHAR(70),
+	`tipo_solicitud` TINYINT(1)  NOT NULL,
+	`ac_mod_responsable` TINYINT(1),
+	`ac_mod_cif_nif_ant` VARCHAR(9),
+	`ac_mod_servicio_unidad` TINYINT(1),
+	`ac_mod_disposicion` TINYINT(1),
+	`ac_mod_iden_finalid` TINYINT(1),
+	`ac_mod_encargado` TINYINT(1),
+	`ac_mod_estruct_sistema` TINYINT(1),
+	`ac_mod_medidas_seg` TINYINT(1),
+	`ac_mod_origen` TINYINT(1),
+	`ac_mod_trans_inter` TINYINT(1),
+	`ac_mod_comunic_ces` TINYINT(1),
+	`ac_supr_motivos` VARCHAR(140),
+	`ac_supr_destino_previsiones` VARCHAR(210),
+	`ac_supr_cifnif` VARCHAR(9),
+	`et_nombre` VARCHAR(140),
+	`et_cif` VARCHAR(9),
+	`et_dirpostal` VARCHAR(100),
+	`et_localidad` VARCHAR(50),
+	`et_cp` VARCHAR(5),
+	`et_provincia` VARCHAR(2),
+	`et_pais` VARCHAR(2),
+	`et_tel` VARCHAR(10),
+	`et_fax` VARCHAR(10),
+	`et_mail` VARCHAR(70),
+	`idn_nombre` VARCHAR(70),
+	`idn_descripcion` TEXT,
+	`idn_finalidades` VARCHAR(23),
+	`indica_inte` TINYINT(1),
+	`indica_otras` TINYINT(1),
+	`indic_fap` TINYINT(1),
+	`indic_rp` TINYINT(1),
+	`indic_ep` TINYINT(1),
+	`indic_ap` TINYINT(1),
+	`op_colectivos` VARCHAR(17),
+	`op_otroscol` VARCHAR(100),
+	`ind_ide` TINYINT(1),
+	`ind_as` TINYINT(1),
+	`ind_r` TINYINT(1),
+	`ind_c` TINYINT(1),
+	`ind_re` TINYINT(1),
+	`ind_sal` TINYINT(1),
+	`ind_sexo` TINYINT(1),
+	`ind_nif` TINYINT(1),
+	`ind_ss` TINYINT(1),
+	`ind_n_a` TINYINT(1),
+	`ind_ts` TINYINT(1),
+	`ind_dir` TINYINT(1),
+	`ind_tel` TINYINT(1),
+	`ind_huella` TINYINT(1),
+	`ind_img` TINYINT(1),
+	`ind_marcas` TINYINT(1),
+	`ind_firma` TINYINT(1),
+	`td_otrosprotegidos` VARCHAR(100),
+	`td_otrostipificados` VARCHAR(17),
+	`td_otrostiposdatos` VARCHAR(100),
+	`td_tratamiento` CHAR,
+	`seguridad` CHAR,
+	`cd_destinatarios` VARCHAR(17),
+	`cd_otrosdestinatarios` VARCHAR(100),
+	`paises_destina` VARCHAR(14),
+	`cat_destina` VARCHAR(11),
+	`otro_pais_destina` TEXT,
+	PRIMARY KEY (`notid`),
+	KEY `FI_fichero`(`id_fichero`),
+	KEY `fecha_proceso`(`fecha`),
+	KEY `fecha_proceso_2`(`fecha`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- paises
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `paises`;
+
+
+CREATE TABLE `paises`
+(
+	`pid` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`pais` VARCHAR(80),
+	`cod` VARCHAR(2)  NOT NULL,
+	PRIMARY KEY (`pid`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- parametro
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `parametro`;
+
+
+CREATE TABLE `parametro`
+(
+	`id_parametro` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`tipoParametro` VARCHAR(100)  NOT NULL,
+	`nombre` VARCHAR(100),
+	`numero` FLOAT,
+	`numero2` FLOAT,
+	`cadena` TEXT,
+	`cadena1` TEXT,
+	`otroObjeto` INTEGER(11),
+	`si_no` TINYINT(4),
+	`fecha` DATETIME,
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	`fechaBorrado` DATETIME,
+	`nombreFichero` VARCHAR(200),
+	`tipo` VARCHAR(100),
+	`fichero` TEXT,
+	`tamano` INTEGER(11),
+	PRIMARY KEY (`id_parametro`),
+	KEY `FI_parametro_definicion_parametro`(`tipoParametro`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- parametro_def
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `parametro_def`;
+
+
+CREATE TABLE `parametro_def`
+(
+	`tipoParametro` VARCHAR(100)  NOT NULL,
+	`nombre` VARCHAR(100),
+	`esLista` TINYINT(4),
+	`camposLista` TEXT,
+	`campoNombre` VARCHAR(150),
+	`campoNumero` VARCHAR(150),
+	`campoNumero2` VARCHAR(150),
+	`campoCadena` TEXT,
+	`campoCadena1` VARCHAR(150),
+	`campoCadenaMultiIdioma` VARCHAR(150),
+	`campoOtroObjeto` TEXT,
+	`campoSiNo` VARCHAR(150),
+	`campoFecha` VARCHAR(150),
+	`campoFichero` VARCHAR(150),
+	`esEditable` TINYINT(4) default 1,
+	`esBorrable` TINYINT(4) default 1,
+	PRIMARY KEY (`tipoParametro`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- provincia
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `provincia`;
+
+
+CREATE TABLE `provincia`
+(
+	`id_provincia` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`pais` VARCHAR(2),
+	`nombre` VARCHAR(45),
+	PRIMARY KEY (`id_provincia`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- rel_campo_tabla
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `rel_campo_tabla`;
+
+
+CREATE TABLE `rel_campo_tabla`
+(
+	`id_campo` INTEGER(11)  NOT NULL,
+	`id_tabla` INTEGER(11)  NOT NULL,
+	PRIMARY KEY (`id_campo`,`id_tabla`),
+	KEY `FI_tabla_rel_campo_tabla`(`id_tabla`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- sesion
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `sesion`;
+
+
+CREATE TABLE `sesion`
+(
+	`id_sesion` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_usuario` INTEGER(15)  NOT NULL,
+	`sesion` VARCHAR(50),
+	`IP` VARCHAR(15),
+	PRIMARY KEY (`id_sesion`),
+	KEY `FI_itasDeUsuarios`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- sesion_log
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `sesion_log`;
+
+
+CREATE TABLE `sesion_log`
+(
+	`id_log` INTEGER(15)  NOT NULL AUTO_INCREMENT,
+	`id_sesion` INTEGER(11)  NOT NULL,
+	`fecha` DATETIME  NOT NULL,
+	`URL` VARCHAR(100)  NOT NULL,
+	`modulo` VARCHAR(40),
+	`accion` VARCHAR(40),
+	`parametros` TEXT  NOT NULL,
+	`mensaje` TEXT  NOT NULL,
+	PRIMARY KEY (`id_log`),
+	KEY `FI_inasVistas`(`id_sesion`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- tabla
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `tabla`;
+
+
+CREATE TABLE `tabla`
+(
+	`id_tabla` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`id_empresa` INTEGER(11)  NOT NULL,
+	`nombre` VARCHAR(255)  NOT NULL,
+	`imagen` VARCHAR(255),
+	`mostrar_en_lista` TINYINT(4) default 1,
+	`orden` INTEGER(11),
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	`borrado` TINYINT(4),
+	PRIMARY KEY (`id_tabla`),
+	KEY `FI_tabla_empresa`(`id_empresa`),
+	KEY `FI_usuario_tabla`(`id_usuario`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula1
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula1`;
+
+
+CREATE TABLE `taula1`
+(
+	`t1id` VARCHAR(3)  NOT NULL,
+	`actividad` TEXT,
+	PRIMARY KEY (`t1id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula2
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula2`;
+
+
+CREATE TABLE `taula2`
+(
+	`t2id` INTEGER(11)  NOT NULL,
+	`descripcion` TEXT,
+	PRIMARY KEY (`t2id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula3
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula3`;
+
+
+CREATE TABLE `taula3`
+(
+	`t3id` VARCHAR(3)  NOT NULL,
+	`descripcion` TEXT,
+	PRIMARY KEY (`t3id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula4
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula4`;
+
+
+CREATE TABLE `taula4`
+(
+	`t4id` INTEGER(11)  NOT NULL,
+	`descripcion` TEXT,
+	PRIMARY KEY (`t4id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula5
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula5`;
+
+
+CREATE TABLE `taula5`
+(
+	`t5id` VARCHAR(5)  NOT NULL,
+	`descripcion` TEXT,
+	PRIMARY KEY (`t5id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- taula7
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `taula7`;
+
+
+CREATE TABLE `taula7`
+(
+	`t7id` VARCHAR(5)  NOT NULL,
+	`descripcion` TEXT,
+	PRIMARY KEY (`t7id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- tipos_colectivos
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `tipos_colectivos`;
+
+
+CREATE TABLE `tipos_colectivos`
+(
+	`id` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`left_colectivos` TEXT,
+	`right_colectivos` TEXT,
+	PRIMARY KEY (`id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- tipos_datos_seguridad_cesion
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `tipos_datos_seguridad_cesion`;
+
+
+CREATE TABLE `tipos_datos_seguridad_cesion`
+(
+	`id` INTEGER  NOT NULL AUTO_INCREMENT,
+	`datos_check` TEXT,
+	`datos_select_izq` TEXT,
+	`datos_select_der` TEXT,
+	`medidas_check` TEXT,
+	`medidas_select_izq` TEXT,
+	`medidas_select_der` TEXT,
+	PRIMARY KEY (`id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- tipos_finalidades
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `tipos_finalidades`;
+
+
+CREATE TABLE `tipos_finalidades`
+(
+	`id` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`name` TEXT  NOT NULL,
+	`description` TEXT  NOT NULL,
+	`left_finalidades` TEXT  NOT NULL,
+	`right_finalidades` TEXT  NOT NULL,
+	PRIMARY KEY (`id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- trans_unit
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `trans_unit`;
+
+
+CREATE TABLE `trans_unit`
+(
+	`msg_id` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`cat_id` INTEGER(11),
+	`id` VARCHAR(255),
+	`source` TEXT,
+	`target` TEXT,
+	`comments` TEXT,
+	`date_added` DATETIME,
+	`date_modified` DATETIME,
+	`author` VARCHAR(255),
+	`translated` INTEGER(11),
+	PRIMARY KEY (`msg_id`),
+	KEY `trans_unit_FI_1`(`cat_id`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- usuario
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `usuario`;
+
+
+CREATE TABLE `usuario`
+(
+	`id_usuario` INTEGER(11)  NOT NULL AUTO_INCREMENT,
+	`id_idioma` VARCHAR(6)  NOT NULL,
+	`usuario` VARCHAR(30),
+	`clave` VARCHAR(255),
+	`nombre` VARCHAR(150),
+	`apellido1` VARCHAR(100),
+	`apellido2` VARCHAR(100),
+	`cif` VARCHAR(10),
+	`domicilio` TEXT,
+	`poblacion` VARCHAR(50),
+	`cp` INTEGER(9),
+	`id_provincia` INTEGER(11),
+	`pais` VARCHAR(80),
+	`movil` VARCHAR(15),
+	`telefono` VARCHAR(15),
+	`fax` VARCHAR(15),
+	`ultima_visita` DATETIME,
+	`email` VARCHAR(45),
+	`es_externo` TINYINT(4),
+	`alerta_email` TINYINT(4) default 0,
+	`created_at` DATETIME,
+	`updated_at` DATETIME,
+	`fecha_borrado` DATETIME,
+	PRIMARY KEY (`id_usuario`),
+	KEY `FI_idioma_usuario`(`id_idioma`),
+	KEY `FI_usuario_provincia`(`id_provincia`)
+)Type=MyIsam;
+
+#-----------------------------------------------------------------------------
+#-- usuario_grupo
+#-----------------------------------------------------------------------------
+
+DROP TABLE IF EXISTS `usuario_grupo`;
+
+
+CREATE TABLE `usuario_grupo`
+(
+	`id_usuario` INTEGER(11)  NOT NULL,
+	`id_grupo` INTEGER(11)  NOT NULL,
+	PRIMARY KEY (`id_usuario`,`id_grupo`),
+	KEY `FI_grupo_usuario_grupo`(`id_grupo`)
+)Type=MyIsam;
+
+# This restores the fkey checks, after having unset them earlier
+SET FOREIGN_KEY_CHECKS = 1;

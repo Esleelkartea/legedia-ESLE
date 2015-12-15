@@ -1,0 +1,7 @@
+generator:
+  class:              sfWebRPCGenerator
+  param:
+    theme:            default
+    rpc_functions:
+      add: {function: sfWebRPCPluginDemo::superAddFct, nparam:2}
+      sub: {function: sfWebRPCPluginDemo::superSubFct}

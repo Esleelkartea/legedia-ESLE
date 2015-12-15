@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy
+END
+DbmsSyntax.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbmsSyntax.php
+END
+DbmsSyntaxMsSql.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbmsSyntaxMsSql.php
+END
+DbmsSyntaxSQLite.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbmsSyntaxSQLite.php
+END
+DbmsSyntaxMysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbmsSyntaxMysql.php
+END
+DbmsSyntaxFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbmsSyntaxFactory.php
+END
+DbDeployTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/dbdeploy/DbDeployTask.php
+END

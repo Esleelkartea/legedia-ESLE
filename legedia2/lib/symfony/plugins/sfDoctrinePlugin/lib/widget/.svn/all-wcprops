@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/widget
+END
+sfWidgetFormDoctrineChoiceMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineChoiceMany.class.php
+END
+sfWidgetFormDoctrineSelect.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineSelect.class.php
+END
+sfWidgetFormDoctrineSelectMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineSelectMany.class.php
+END
+sfWidgetFormDoctrineChoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineChoice.class.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/ioncube
+END
+IoncubeLicenseTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/ioncube/IoncubeLicenseTask.php
+END
+IoncubeComment.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/ioncube/IoncubeComment.php
+END
+IoncubeEncoderTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/phing/tasks/ext/ioncube/IoncubeEncoderTask.php
+END

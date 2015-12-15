@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/67/lib/symfony/helper
+END
+EscapingHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/6/lib/symfony/helper/EscapingHelper.php
+END
+ValidationHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/1/lib/symfony/helper/ValidationHelper.php
+END
+PartialHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/67/lib/symfony/helper/PartialHelper.php
+END
+sfRichTextEditor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/1/lib/symfony/helper/sfRichTextEditor.class.php
+END
+DateFormHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/6/lib/symfony/helper/DateFormHelper.php
+END
+JavascriptBaseHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/67/lib/symfony/helper/JavascriptBaseHelper.php
+END
+UrlHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/67/lib/symfony/helper/UrlHelper.php
+END
+CacheHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/1/lib/symfony/helper/CacheHelper.php
+END
+FormHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/6/lib/symfony/helper/FormHelper.php
+END
+ObjectHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/lib/symfony/helper/ObjectHelper.php
+END
+TagHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/1/lib/symfony/helper/TagHelper.php
+END
+DateHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/lib/symfony/helper/DateHelper.php
+END
+AssetHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/67/lib/symfony/helper/AssetHelper.php
+END
+HelperHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/lib/symfony/helper/HelperHelper.php
+END
+I18NHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/lib/symfony/helper/I18NHelper.php
+END
+ObjectAdminHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/1/lib/symfony/helper/ObjectAdminHelper.php
+END
+sfRichTextEditorFCK.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/6/lib/symfony/helper/sfRichTextEditorFCK.class.php
+END
+TextHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/67/lib/symfony/helper/TextHelper.php
+END
+DebugHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/1/lib/symfony/helper/DebugHelper.php
+END
+sfRichTextEditorTinyMCE.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/6/lib/symfony/helper/sfRichTextEditorTinyMCE.class.php
+END
+NumberHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/lib/symfony/helper/NumberHelper.php
+END

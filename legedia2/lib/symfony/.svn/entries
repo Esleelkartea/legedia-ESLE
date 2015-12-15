@@ -1,0 +1,124 @@
+10
+
+dir
+70
+http://serv107/repo/legedia/lib/symfony
+http://serv107/repo/legedia
+
+
+
+2010-09-09T15:05:19.042601Z
+67
+kam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+cecd30a9-d62e-4093-b7f9-af66687f38ca
+
+widget
+dir
+
+controller
+dir
+
+validator
+dir
+
+debug
+dir
+
+generator
+dir
+
+response
+dir
+
+plugin
+dir
+
+exception
+dir
+
+task
+dir
+
+cache
+dir
+
+storage
+dir
+
+database
+dir
+
+autoload
+dir
+
+view
+dir
+
+command
+dir
+
+i18n
+dir
+
+helper
+dir
+
+test
+dir
+
+event
+dir
+
+log
+dir
+
+plugins
+dir
+
+filter
+dir
+
+addon
+dir
+
+routing
+dir
+
+request
+dir
+
+vendor
+dir
+
+yaml
+dir
+
+form
+dir
+
+config
+dir
+
+action
+dir
+
+util
+dir
+
+user
+dir
+

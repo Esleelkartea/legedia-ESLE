@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repo/legedia/!svn/ver/67/lib/symfony/config/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/67/lib/symfony/config/config/factories.yml
+END
+core_compile.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/core_compile.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/67/lib/symfony/config/config/settings.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/config_handlers.yml
+END
+module.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/module.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/security.yml
+END
+autoload.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/autoload.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/1/lib/symfony/config/config/view.yml
+END

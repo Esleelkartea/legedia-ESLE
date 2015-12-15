@@ -1,0 +1,2 @@
+<?php
+include_partial('mostrar', array('id_fichero' => $sf_request->getParameter('id_fichero'), 'notid' => $sf_request->getParameter('id_notificacion'), 'encargado' => $encargado, 'action' => 'view')); ?>

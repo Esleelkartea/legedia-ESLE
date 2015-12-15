@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes
+END
+runTestOfHeaderEncoding.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes/runTestOfHeaderEncoding.php
+END
+runTestOfMultipart.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes/runTestOfMultipart.php
+END
+runTestOfAttachment.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes/runTestOfAttachment.php
+END
+runTestOfBasicSend.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes/runTestOfBasicSend.php
+END
+runTestOfEmbeddedImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/smokes/runTestOfEmbeddedImage.php
+END

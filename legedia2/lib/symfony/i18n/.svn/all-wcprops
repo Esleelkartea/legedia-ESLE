@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/67/lib/symfony/i18n
+END
+sfMessageSource_XLIFF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfMessageSource_XLIFF.class.php
+END
+sfMessageFormat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/67/lib/symfony/i18n/sfMessageFormat.class.php
+END
+sfCultureInfo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/67/lib/symfony/i18n/sfCultureInfo.class.php
+END
+sfNumberFormat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/67/lib/symfony/i18n/sfNumberFormat.class.php
+END
+sfChoiceFormat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfChoiceFormat.class.php
+END
+sfMessageSource_File.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfMessageSource_File.class.php
+END
+sfMessageSource.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfMessageSource.class.php
+END
+sfMessageSource_gettext.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfMessageSource_gettext.class.php
+END
+sfMessageSource_Aggregate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfMessageSource_Aggregate.class.php
+END
+sfNumberFormatInfo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfNumberFormatInfo.class.php
+END
+sfIMessageSource.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfIMessageSource.class.php
+END
+sfI18N.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfI18N.class.php
+END
+sfDateTimeFormatInfo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/i18n/sfDateTimeFormatInfo.class.php
+END
+sfDateFormat.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfDateFormat.class.php
+END
+sfMessageSource_SQLite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfMessageSource_SQLite.class.php
+END
+sfMessageSource_Database.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfMessageSource_Database.class.php
+END
+sfMessageSource_MySQL.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/9/lib/symfony/i18n/sfMessageSource_MySQL.class.php
+END

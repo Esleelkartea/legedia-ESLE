@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/util
+END
+PropelDateTimeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/util/PropelDateTimeTest.php
+END
+CriteriaTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/util/CriteriaTest.php
+END
+PropelPDOTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/util/PropelPDOTest.php
+END
+BasePeerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/test/classes/propel/util/BasePeerTest.php
+END

@@ -1,0 +1,440 @@
+legedia:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  alcance:
+    _attributes: { phpName: Alcance }
+    id_alcance: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    id_empresa: { type: INTEGER, size: '11', required: true }
+    id_tabla: { type: INTEGER, size: '11', required: true }
+    titulo: { type: VARCHAR, size: '255', required: false }
+    descripcion: { type: LONGVARCHAR, required: false }
+    ver_todos_registros: { type: TINYINT, size: '4', required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    _indexes: { FI_empresa_alcance: [id_empresa], FI_tabla_alcance: [id_tabla], FI_usuario_alcance: [id_usuario] }
+  campo:
+    _attributes: { phpName: Campo }
+    id_campo: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_empresa: { type: INTEGER, size: '11', required: true }
+    es_general: { type: TINYINT, size: '4', required: false }
+    es_nombre: { type: INTEGER, size: '1', required: false }
+    nombre: { type: VARCHAR, size: '150', required: false }
+    descripcion: { type: LONGVARCHAR, required: false }
+    tipo: { type: INTEGER, size: '11', required: false }
+    misma_fila: { type: TINYINT, size: '4', required: false, defaultValue: '0' }
+    en_lista: { type: TINYINT, size: '4', required: true, defaultValue: '0' }
+    desplegable: { type: TINYINT, size: '4', required: false, defaultValue: '0' }
+    seleccion_multiple: { type: TINYINT, size: '4', required: false }
+    tipo_items: { type: INTEGER, size: '11', required: false }
+    unidad_rangos: { type: VARCHAR, size: '10', required: false }
+    tipo_periodo: { type: INTEGER, size: '11', required: false }
+    valor_tabla: { type: INTEGER, size: '11', required: false }
+    mostrar_en_padre: { type: TINYINT, size: '4', required: false }
+    valor_objeto: { type: VARCHAR, size: '250', required: false }
+    defecto: { type: VARCHAR, size: '250', required: false }
+    obligatorio: { type: TINYINT, size: '4', required: false }
+    tamano: { type: VARCHAR, size: '250', required: false }
+    orden: { type: INTEGER, size: '11', required: false }
+    es_inconsistente: { type: TINYINT, size: '4', required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_campo_empresa: [id_empresa] }
+  catalogue:
+    _attributes: { phpName: Catalogue }
+    cat_id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    nvisible: { type: VARCHAR, size: '100', required: false }
+    name: { type: VARCHAR, size: '100', required: false }
+    source_lang: { type: VARCHAR, size: '100', required: false }
+    target_lang: { type: VARCHAR, size: '100', required: false }
+    date_created: { type: TIMESTAMP, required: false }
+    date_modified: { type: TIMESTAMP, required: false }
+    author: { type: VARCHAR, size: '255', required: false }
+  empresa:
+    _attributes: { phpName: Empresa }
+    id_empresa: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_provincia: { type: INTEGER, size: '11', required: true }
+    id_usuario: { type: INTEGER, size: '11', required: true }
+    nombre: { type: VARCHAR, size: '150', required: false }
+    id_actividad: { type: VARCHAR, size: '3', required: true }
+    telefono: { type: VARCHAR, size: '20', required: false }
+    fax: { type: VARCHAR, size: '20', required: false }
+    email: { type: VARCHAR, size: '50', required: false }
+    domicilio: { type: LONGVARCHAR, required: false }
+    poblacion: { type: VARCHAR, size: '255', required: false }
+    codigo_postal: { type: VARCHAR, size: '10', required: false }
+    cif: { type: VARCHAR, size: '45', required: false }
+    logo_min: { type: VARCHAR, size: '150', required: false }
+    logo_med: { type: VARCHAR, size: '150', required: false }
+    logo_max: { type: VARCHAR, size: '150', required: false }
+    id_vtiger: { type: INTEGER, size: '11', required: false }
+    smtp_server: { type: VARCHAR, size: '150', required: false }
+    smtp_user: { type: VARCHAR, size: '150', required: false }
+    smtp_password: { type: VARCHAR, size: '255', required: false }
+    smtp_port: { type: INTEGER, size: '11', required: false }
+    sender_address: { type: VARCHAR, size: '150', required: false }
+    sender_name: { type: VARCHAR, size: '100', required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_empresa_provincia: [id_provincia], FI_usuario_empresa: [id_usuario], FI_empresa_actividad: [id_actividad] }
+  formulario:
+    _attributes: { phpName: Formulario }
+    id_formulario: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_tabla: { type: INTEGER, size: '11', required: true }
+    id_usuario_creador: { type: INTEGER, size: '11', required: true }
+    id_usuario: { type: INTEGER, size: '11', required: true }
+    fecha: { type: TIMESTAMP, required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    _indexes: { FI_tabla_formulario: [id_tabla], FI_usuario_formulario: [id_usuario] }
+  grupo:
+    _attributes: { phpName: Grupo }
+    id_grupo: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    nombre: { type: VARCHAR, size: '255', required: false }
+    padre: { type: INTEGER, size: '11', required: false }
+  grupo_modulo:
+    _attributes: { phpName: GrupoModulo }
+    modulo: { type: VARCHAR, size: '50', primaryKey: true, required: true }
+    accion: { type: VARCHAR, size: '50', primaryKey: true, required: true }
+    id_grupo: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    permiso: { type: TINYINT, size: '4', required: false, defaultValue: '1' }
+    _indexes: { FI_grupo_modulo_grupo: [id_grupo] }
+  item:
+    _attributes: { phpName: Item }
+    id_item: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_formulario: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    id_item_base: { type: INTEGER, size: '11', required: true }
+    texto_corto: { type: VARCHAR, size: '255', required: false }
+    texto_largo: { type: LONGVARCHAR, required: false }
+    si_no: { type: TINYINT, size: '4', required: false }
+    texto_auxiliar: { type: VARCHAR, size: '255', required: false }
+    fecha: { type: TIMESTAMP, required: false }
+    numero: { type: INTEGER, size: '11', required: false }
+    id_tabla: { type: INTEGER, size: '11', required: false }
+    id_objeto: { type: INTEGER, size: '11', required: false }
+    anio: { type: INTEGER, size: '11', required: false }
+    _indexes: { FI_item_base_item: [id_item_base], FI_item_formulario: [id_formulario] }
+  item_base:
+    _attributes: { phpName: ItemBase }
+    id_item_base: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_campo: { type: INTEGER, size: '11', required: true }
+    texto: { type: VARCHAR, size: '150', required: false }
+    numero_inferior: { type: FLOAT, required: false }
+    numero_superior: { type: FLOAT, required: false }
+    ayuda: { type: VARCHAR, size: '255', required: false }
+    texto_auxiliar: { type: TINYINT, size: '4', required: false }
+    orden: { type: INTEGER, size: '11', required: false }
+    es_inconsistente: { type: TINYINT, size: '4', required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_campo_item: [id_campo] }
+  mensaje:
+    _attributes: { phpName: Mensaje }
+    id_mensaje: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { type: INTEGER, size: '11', required: true }
+    asunto: { type: VARCHAR, size: '255', required: false }
+    cuerpo: { type: LONGVARCHAR, required: false }
+    fecha: { type: TIMESTAMP, required: false }
+    email: { type: TINYINT, size: '4', required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_usuario_mensaje: [id_usuario] }
+  mensaje_destino:
+    _attributes: { phpName: MensajeDestino }
+    id_mensaje: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    id_usuario: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    leido: { type: TINYINT, size: '4', required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_usuario_mensaje_destino: [id_usuario] }
+  notificaciones:
+    _attributes: { phpName: Notificaciones }
+    notid: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    soporte: { type: CHAR, required: true }
+    tipo: { type: CHAR, required: true }
+    tipo_noti: { type: TINYINT, size: '1', required: false }
+    id_fichero: { type: INTEGER, size: '11', required: true }
+    fecha: { type: VARCHAR, size: '8', required: true }
+    hora_proceso: { type: VARCHAR, size: '6', required: true }
+    procesado: { type: INTEGER, size: '4', required: false, defaultValue: '0' }
+    hay_que_parar: { type: TINYINT, size: '4', required: false, defaultValue: '0' }
+    modelo: { type: CHAR, required: true }
+    titularidad: { type: CHAR, required: true }
+    presentacion: { type: CHAR, required: true }
+    forma: { type: CHAR, required: true }
+    id_upload: { type: VARCHAR, size: '22', required: true }
+    pf_razon_s: { type: VARCHAR, size: '140', required: true }
+    pf_cif_nif: { type: VARCHAR, size: '9', required: true }
+    pf_nombre: { type: VARCHAR, size: '35', required: true }
+    pf_apellido1: { type: VARCHAR, size: '35', required: true }
+    pf_apellido2: { type: VARCHAR, size: '35', required: true }
+    pf_nif: { type: VARCHAR, size: '9', required: false }
+    pf_cargo: { type: VARCHAR, size: '70', required: true }
+    dec_razon_s: { type: VARCHAR, size: '70', required: true }
+    dec_direccion: { type: VARCHAR, size: '100', required: true }
+    dec_localidad: { type: VARCHAR, size: '50', required: true }
+    dec_cp: { type: VARCHAR, size: '5', required: false }
+    dec_provincia: { type: VARCHAR, size: '2', required: false }
+    dec_pais: { type: VARCHAR, size: '2', required: true }
+    dec_tel: { type: VARCHAR, size: '10', required: false }
+    dec_fax: { type: VARCHAR, size: '10', required: false }
+    dec_mail: { type: VARCHAR, size: '70', required: false }
+    dec_forma: { type: TINYINT, size: '1', required: true }
+    rf_nombre: { type: VARCHAR, size: '140', required: false }
+    rf_actividad: { type: VARCHAR, size: '3', required: false }
+    rf_cif: { type: VARCHAR, size: '9', required: true }
+    rf_domicilio: { type: VARCHAR, size: '100', required: true }
+    rf_localidad: { type: VARCHAR, size: '50', required: true }
+    rf_cp: { type: VARCHAR, size: '5', required: false }
+    rf_provincia: { type: VARCHAR, size: '2', required: false }
+    rf_pais: { type: VARCHAR, size: '2', required: true }
+    rf_tel: { type: VARCHAR, size: '10', required: false }
+    rf_fax: { type: VARCHAR, size: '10', required: false }
+    rf_mail: { type: VARCHAR, size: '70', required: false }
+    dr_nombreof: { type: VARCHAR, size: '70', required: false }
+    dr_cif: { type: VARCHAR, size: '9', required: false }
+    dr_dirpostal: { type: VARCHAR, size: '100', required: false }
+    dr_localidad: { type: VARCHAR, size: '50', required: false }
+    dr_cp: { type: VARCHAR, size: '5', required: false }
+    dr_provincia: { type: VARCHAR, size: '2', required: true }
+    dr_pais: { type: VARCHAR, size: '2', required: false }
+    dr_tel: { type: VARCHAR, size: '10', required: false }
+    dr_fax: { type: VARCHAR, size: '10', required: false }
+    dr_mail: { type: VARCHAR, size: '70', required: false }
+    tipo_solicitud: { type: TINYINT, size: '1', required: true }
+    ac_mod_responsable: { type: TINYINT, size: '1', required: false }
+    ac_mod_cif_nif_ant: { type: VARCHAR, size: '9', required: false }
+    ac_mod_servicio_unidad: { type: TINYINT, size: '1', required: false }
+    ac_mod_disposicion: { type: TINYINT, size: '1', required: false }
+    ac_mod_iden_finalid: { type: TINYINT, size: '1', required: false }
+    ac_mod_encargado: { type: TINYINT, size: '1', required: false }
+    ac_mod_estruct_sistema: { type: TINYINT, size: '1', required: false }
+    ac_mod_medidas_seg: { type: TINYINT, size: '1', required: false }
+    ac_mod_origen: { type: TINYINT, size: '1', required: false }
+    ac_mod_trans_inter: { type: TINYINT, size: '1', required: false }
+    ac_mod_comunic_ces: { type: TINYINT, size: '1', required: false }
+    ac_supr_motivos: { type: VARCHAR, size: '140', required: false }
+    ac_supr_destino_previsiones: { type: VARCHAR, size: '210', required: false }
+    ac_supr_cifnif: { type: VARCHAR, size: '9', required: false }
+    et_nombre: { type: VARCHAR, size: '140', required: false }
+    et_cif: { type: VARCHAR, size: '9', required: false }
+    et_dirpostal: { type: VARCHAR, size: '100', required: false }
+    et_localidad: { type: VARCHAR, size: '50', required: false }
+    et_cp: { type: VARCHAR, size: '5', required: false }
+    et_provincia: { type: VARCHAR, size: '2', required: false }
+    et_pais: { type: VARCHAR, size: '2', required: false }
+    et_tel: { type: VARCHAR, size: '10', required: false }
+    et_fax: { type: VARCHAR, size: '10', required: false }
+    et_mail: { type: VARCHAR, size: '70', required: false }
+    idn_nombre: { type: VARCHAR, size: '70', required: false }
+    idn_descripcion: { type: LONGVARCHAR, required: false }
+    idn_finalidades: { type: VARCHAR, size: '23', required: false }
+    indica_inte: { type: TINYINT, size: '1', required: false }
+    indica_otras: { type: TINYINT, size: '1', required: false }
+    indic_fap: { type: TINYINT, size: '1', required: false }
+    indic_rp: { type: TINYINT, size: '1', required: false }
+    indic_ep: { type: TINYINT, size: '1', required: false }
+    indic_ap: { type: TINYINT, size: '1', required: false }
+    op_colectivos: { type: VARCHAR, size: '17', required: false }
+    op_otroscol: { type: VARCHAR, size: '100', required: false }
+    ind_ide: { type: TINYINT, size: '1', required: false }
+    ind_as: { type: TINYINT, size: '1', required: false }
+    ind_r: { type: TINYINT, size: '1', required: false }
+    ind_c: { type: TINYINT, size: '1', required: false }
+    ind_re: { type: TINYINT, size: '1', required: false }
+    ind_sal: { type: TINYINT, size: '1', required: false }
+    ind_sexo: { type: TINYINT, size: '1', required: false }
+    ind_nif: { type: TINYINT, size: '1', required: false }
+    ind_ss: { type: TINYINT, size: '1', required: false }
+    ind_n_a: { type: TINYINT, size: '1', required: false }
+    ind_ts: { type: TINYINT, size: '1', required: false }
+    ind_dir: { type: TINYINT, size: '1', required: false }
+    ind_tel: { type: TINYINT, size: '1', required: false }
+    ind_huella: { type: TINYINT, size: '1', required: false }
+    ind_img: { type: TINYINT, size: '1', required: false }
+    ind_marcas: { type: TINYINT, size: '1', required: false }
+    ind_firma: { type: TINYINT, size: '1', required: false }
+    td_otrosprotegidos: { type: VARCHAR, size: '100', required: false }
+    td_otrostipificados: { type: VARCHAR, size: '17', required: false }
+    td_otrostiposdatos: { type: VARCHAR, size: '100', required: false }
+    td_tratamiento: { type: CHAR, required: false }
+    seguridad: { type: CHAR, required: false }
+    cd_destinatarios: { type: VARCHAR, size: '17', required: false }
+    cd_otrosdestinatarios: { type: VARCHAR, size: '100', required: false }
+    paises_destina: { type: VARCHAR, size: '14', required: false }
+    cat_destina: { type: VARCHAR, size: '11', required: false }
+    otro_pais_destina: { type: LONGVARCHAR, required: false }
+    _indexes: { FI_fichero: [id_fichero], fecha_proceso: [fecha], fecha_proceso_2: [fecha] }
+  paises:
+    _attributes: { phpName: Paises }
+    pid: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    pais: { type: VARCHAR, size: '80', required: false }
+    cod: { type: VARCHAR, size: '2', required: true }
+  parametro:
+    _attributes: { phpName: Parametro }
+    id_parametro: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    tipoParametro: { type: VARCHAR, size: '100', required: true }
+    nombre: { type: VARCHAR, size: '100', required: false }
+    numero: { type: FLOAT, required: false }
+    numero2: { type: FLOAT, required: false }
+    cadena: { type: LONGVARCHAR, required: false }
+    cadena1: { type: LONGVARCHAR, required: false }
+    otroObjeto: { type: INTEGER, size: '11', required: false }
+    si_no: { type: TINYINT, size: '4', required: false }
+    fecha: { type: TIMESTAMP, required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    fechaBorrado: { type: TIMESTAMP, required: false }
+    nombreFichero: { type: VARCHAR, size: '200', required: false }
+    tipo: { type: VARCHAR, size: '100', required: false }
+    fichero: { type: LONGVARCHAR, required: false }
+    tamano: { type: INTEGER, size: '11', required: false }
+    _indexes: { FI_parametro_definicion_parametro: [tipoParametro] }
+  parametro_def:
+    _attributes: { phpName: ParametroDef }
+    tipoParametro: { type: VARCHAR, size: '100', primaryKey: true, required: true }
+    nombre: { type: VARCHAR, size: '100', required: false }
+    esLista: { type: TINYINT, size: '4', required: false }
+    camposLista: { type: LONGVARCHAR, required: false }
+    campoNombre: { type: VARCHAR, size: '150', required: false }
+    campoNumero: { type: VARCHAR, size: '150', required: false }
+    campoNumero2: { type: VARCHAR, size: '150', required: false }
+    campoCadena: { type: LONGVARCHAR, required: false }
+    campoCadena1: { type: VARCHAR, size: '150', required: false }
+    campoCadenaMultiIdioma: { type: VARCHAR, size: '150', required: false }
+    campoOtroObjeto: { type: LONGVARCHAR, required: false }
+    campoSiNo: { type: VARCHAR, size: '150', required: false }
+    campoFecha: { type: VARCHAR, size: '150', required: false }
+    campoFichero: { type: VARCHAR, size: '150', required: false }
+    esEditable: { type: TINYINT, size: '4', required: false, defaultValue: '1' }
+    esBorrable: { type: TINYINT, size: '4', required: false, defaultValue: '1' }
+  provincia:
+    _attributes: { phpName: Provincia }
+    id_provincia: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    pais: { type: VARCHAR, size: '2', required: false }
+    nombre: { type: VARCHAR, size: '45', required: false }
+  rel_campo_tabla:
+    _attributes: { phpName: RelCampoTabla }
+    id_campo: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    id_tabla: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    _indexes: { FI_tabla_rel_campo_tabla: [id_tabla] }
+  sesion:
+    _attributes: { phpName: Sesion }
+    id_sesion: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { type: INTEGER, size: '15', required: true }
+    sesion: { type: VARCHAR, size: '50', required: false }
+    IP: { type: VARCHAR, size: '15', required: false }
+    _indexes: { FI_itasDeUsuarios: [id_usuario] }
+  sesion_log:
+    _attributes: { phpName: SesionLog }
+    id_log: { type: INTEGER, size: '15', primaryKey: true, autoIncrement: true, required: true }
+    id_sesion: { type: INTEGER, size: '11', required: true }
+    fecha: { type: TIMESTAMP, required: true }
+    URL: { type: VARCHAR, size: '100', required: true }
+    modulo: { type: VARCHAR, size: '40', required: false }
+    accion: { type: VARCHAR, size: '40', required: false }
+    parametros: { type: LONGVARCHAR, required: true }
+    mensaje: { type: LONGVARCHAR, required: true }
+    _indexes: { FI_inasVistas: [id_sesion] }
+  tabla:
+    _attributes: { phpName: Tabla }
+    id_tabla: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { type: INTEGER, size: '11', required: true }
+    id_empresa: { type: INTEGER, size: '11', required: true }
+    nombre: { type: VARCHAR, size: '255', required: true }
+    imagen: { type: VARCHAR, size: '255', required: false }
+    mostrar_en_lista: { type: TINYINT, size: '4', required: false, defaultValue: '1' }
+    orden: { type: INTEGER, size: '11', required: false }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    borrado: { type: TINYINT, size: '4', required: false }
+    _indexes: { FI_tabla_empresa: [id_empresa], FI_usuario_tabla: [id_usuario] }
+  taula1:
+    _attributes: { phpName: Taula1 }
+    t1id: { type: VARCHAR, size: '3', primaryKey: true, required: true }
+    actividad: { type: LONGVARCHAR, required: false }
+  taula2:
+    _attributes: { phpName: Taula2 }
+    t2id: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    descripcion: { type: LONGVARCHAR, required: false }
+  taula3:
+    _attributes: { phpName: Taula3 }
+    t3id: { type: VARCHAR, size: '3', primaryKey: true, required: true }
+    descripcion: { type: LONGVARCHAR, required: false }
+  taula4:
+    _attributes: { phpName: Taula4 }
+    t4id: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    descripcion: { type: LONGVARCHAR, required: false }
+  taula5:
+    _attributes: { phpName: Taula5 }
+    t5id: { type: VARCHAR, size: '5', primaryKey: true, required: true }
+    descripcion: { type: LONGVARCHAR, required: false }
+  taula7:
+    _attributes: { phpName: Taula7 }
+    t7id: { type: VARCHAR, size: '5', primaryKey: true, required: true }
+    descripcion: { type: LONGVARCHAR, required: false }
+  tipos_colectivos:
+    _attributes: { phpName: TiposColectivos }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    left_colectivos: { type: LONGVARCHAR, required: false }
+    right_colectivos: { type: LONGVARCHAR, required: false }
+  tipos_datos_seguridad_cesion:
+    _attributes: { phpName: TiposDatosSeguridadCesion }
+    id: { type: INTEGER, size: '11', required: true }
+    datos_check: { type: LONGVARCHAR, required: false }
+    datos_select_izq: { type: LONGVARCHAR, required: false }
+    datos_select_der: { type: LONGVARCHAR, required: false }
+    medidas_check: { type: LONGVARCHAR, required: false }
+    medidas_select_izq: { type: LONGVARCHAR, required: false }
+    medidas_select_der: { type: LONGVARCHAR, required: false }
+  tipos_finalidades:
+    _attributes: { phpName: TiposFinalidades }
+    id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    name: { type: LONGVARCHAR, required: true }
+    description: { type: LONGVARCHAR, required: true }
+    left_finalidades: { type: LONGVARCHAR, required: true }
+    right_finalidades: { type: LONGVARCHAR, required: true }
+  trans_unit:
+    _attributes: { phpName: TransUnit }
+    msg_id: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    cat_id: { type: INTEGER, size: '11', required: false }
+    id: { type: VARCHAR, size: '255', required: false }
+    source: { type: LONGVARCHAR, required: false }
+    target: { type: LONGVARCHAR, required: false }
+    comments: { type: LONGVARCHAR, required: false }
+    date_added: { type: TIMESTAMP, required: false }
+    date_modified: { type: TIMESTAMP, required: false }
+    author: { type: VARCHAR, size: '255', required: false }
+    translated: { type: INTEGER, size: '11', required: false }
+    _indexes: { trans_unit_FI_1: [cat_id] }
+  usuario:
+    _attributes: { phpName: Usuario }
+    id_usuario: { type: INTEGER, size: '11', primaryKey: true, autoIncrement: true, required: true }
+    id_idioma: { type: VARCHAR, size: '6', required: true }
+    usuario: { type: VARCHAR, size: '30', required: false }
+    clave: { type: VARCHAR, size: '255', required: false }
+    nombre: { type: VARCHAR, size: '150', required: false }
+    apellido1: { type: VARCHAR, size: '100', required: false }
+    apellido2: { type: VARCHAR, size: '100', required: false }
+    cif: { type: VARCHAR, size: '10', required: false }
+    domicilio: { type: LONGVARCHAR, required: false }
+    poblacion: { type: VARCHAR, size: '50', required: false }
+    cp: { type: INTEGER, size: '9', required: false }
+    id_provincia: { type: INTEGER, size: '11', required: false }
+    pais: { type: VARCHAR, size: '80', required: false }
+    movil: { type: VARCHAR, size: '15', required: false }
+    telefono: { type: VARCHAR, size: '15', required: false }
+    fax: { type: VARCHAR, size: '15', required: false }
+    ultima_visita: { type: TIMESTAMP, required: false }
+    email: { type: VARCHAR, size: '45', required: false }
+    es_externo: { type: TINYINT, size: '4', required: false }
+    alerta_email: { type: TINYINT, size: '4', required: false, defaultValue: '0' }
+    created_at: { type: TIMESTAMP, required: false }
+    updated_at: { type: TIMESTAMP, required: false }
+    fecha_borrado: { type: TIMESTAMP, required: false }
+    _indexes: { FI_idioma_usuario: [id_idioma], FI_usuario_provincia: [id_provincia] }
+  usuario_grupo:
+    _attributes: { phpName: UsuarioGrupo }
+    id_usuario: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    id_grupo: { type: INTEGER, size: '11', primaryKey: true, required: true }
+    _indexes: { FI_grupo_usuario_grupo: [id_grupo] }

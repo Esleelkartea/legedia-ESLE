@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfCompat10Plugin/test/functional
+END
+validationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfCompat10Plugin/test/functional/validationTest.php
+END
+fillInFilterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfCompat10Plugin/test/functional/fillInFilterTest.php
+END

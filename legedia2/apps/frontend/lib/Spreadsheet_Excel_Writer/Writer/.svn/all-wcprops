@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer
+END
+Worksheet.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/Worksheet.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/Parser.php
+END
+Workbook.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/Workbook.php
+END
+BIFFwriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/BIFFwriter.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/Validator.php
+END
+Format.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Spreadsheet_Excel_Writer/Writer/Format.php
+END

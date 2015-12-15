@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repo/legedia/!svn/ver/1/plugins/.channels/.alias
+END
+pecl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/plugins/.channels/.alias/pecl.txt
+END
+symfony-plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/1/plugins/.channels/.alias/symfony-plugins.txt
+END
+symfony.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/1/plugins/.channels/.alias/symfony.txt
+END
+pear.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/plugins/.channels/.alias/pear.txt
+END

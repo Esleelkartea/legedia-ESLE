@@ -1,0 +1,20 @@
+#ver_tipo_parametroSuccess:
+#  has_layout:     off
+#ver_tipo_parametroError:
+#  has_layout:     off  
+#listar_valorSuccess:
+#  has_layout:     off  
+#ver_valorSuccess:
+#  has_layout:     off 
+#ver_valorError:
+#  has_layout:     off 
+#nuevo_valorSuccess:
+#  has_layout:     off 
+#guardar_valorSuccess:
+#  has_layout:     off 
+#borrar_valorSuccess:
+#  has_layout:     off 
+#borrar_valorError:
+#  has_layout:     off 
+#guardar_valorError:
+#  has_layout:     off

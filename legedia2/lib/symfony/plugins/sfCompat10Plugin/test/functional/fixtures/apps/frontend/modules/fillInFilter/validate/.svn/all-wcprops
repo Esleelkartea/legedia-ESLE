@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfCompat10Plugin/test/functional/fixtures/apps/frontend/modules/fillInFilter/validate
+END
+update.yml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfCompat10Plugin/test/functional/fixtures/apps/frontend/modules/fillInFilter/validate/update.yml
+END
+forward.yml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfCompat10Plugin/test/functional/fixtures/apps/frontend/modules/fillInFilter/validate/forward.yml
+END

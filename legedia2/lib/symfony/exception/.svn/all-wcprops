@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repo/legedia/!svn/ver/67/lib/symfony/exception
+END
+sfException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/legedia/!svn/ver/67/lib/symfony/exception/sfException.class.php
+END
+sfFileException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfFileException.class.php
+END
+sfRenderException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfRenderException.class.php
+END
+sfError404Exception.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfError404Exception.class.php
+END
+sfControllerException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfControllerException.class.php
+END
+sfFilterException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfFilterException.class.php
+END
+sfStopException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfStopException.class.php
+END
+sfInitializationException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfInitializationException.class.php
+END
+sfCacheException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfCacheException.class.php
+END
+sfStorageException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfStorageException.class.php
+END
+sfDatabaseException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfDatabaseException.class.php
+END
+sfForwardException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfForwardException.class.php
+END
+sfConfigurationException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfConfigurationException.class.php
+END
+sfFactoryException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfFactoryException.class.php
+END
+sfSecurityException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfSecurityException.class.php
+END
+sfParseException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfParseException.class.php
+END
+sfViewException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/1/lib/symfony/exception/sfViewException.class.php
+END

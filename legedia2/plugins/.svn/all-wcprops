@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/repo/legedia/!svn/ver/68/plugins
+END
+.depdblock
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repo/legedia/!svn/ver/1/plugins/.depdblock
+END
+.lock
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repo/legedia/!svn/ver/1/plugins/.lock
+END
+.sf
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repo/legedia/!svn/ver/1/plugins/.sf
+END
+.filemap
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repo/legedia/!svn/ver/1/plugins/.filemap
+END
+.depdb
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/repo/legedia/!svn/ver/1/plugins/.depdb
+END

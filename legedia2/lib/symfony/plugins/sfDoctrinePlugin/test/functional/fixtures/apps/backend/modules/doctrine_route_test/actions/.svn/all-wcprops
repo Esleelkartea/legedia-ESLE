@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/modules/doctrine_route_test/actions
+END
+actions.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repo/legedia/!svn/ver/18/lib/symfony/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/modules/doctrine_route_test/actions/actions.class.php
+END

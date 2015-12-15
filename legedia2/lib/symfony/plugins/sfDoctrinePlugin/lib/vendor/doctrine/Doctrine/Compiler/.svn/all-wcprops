@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Compiler
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Compiler/Exception.php
+END

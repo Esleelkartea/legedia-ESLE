@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repo/legedia/!svn/ver/22/lib/symfony/task/configure
+END
+sfConfigureAuthorTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/lib/symfony/task/configure/sfConfigureAuthorTask.class.php
+END
+sfConfigureDatabaseTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/lib/symfony/task/configure/sfConfigureDatabaseTask.class.php
+END

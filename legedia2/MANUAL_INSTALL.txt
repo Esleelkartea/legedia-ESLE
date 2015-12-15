@@ -1,0 +1,78 @@
+INSTALACION MANUAL
+Este texto intenta explicar de la manera más sencilla posible como realizar una instalación de la aplicación desde cero, es decir, desde los 
+los fuentes de la aplicación. Para ello se necesita con anterioridad tener un servidor web correctamente instalado y configurado que disponga de PHP5 y MySQL.
+
+COPIANDO LOS FUENTES
+Extraer el fichero comprimido con los fuentes y subir el contenido del mismo al directorio del servidor web donde se desee instalar la aplicación.
+
+PREPARANDO LA BASE DE DATOS
+Desde algun cliente de MySQL como PHPMyAdmin o equivalente, crear una base de datos para la aplicación. 
+Para crear las tablas necesarias necesitamos cargar y ejecutar desde el cliente de MySQL el fichero "schema.sql" que existe en el directorio "data/sql" de la aplicación. 
+Además en la misma carpeta existe el fichero "data.sql" que contiene los datos básicos de la aplicación que tambien hay que cargar y ejecutar en el cliente de MySQL.
+Como última opción, en la carpeta raiz existe un fichero llamado "legedia.sql.zip" que es una copia de las tablas y datos en formato comprimido. Si desea puede cargarlo a su BBDD
+mediante un cliente MySQL como PHPMyAdmin.
+
+CONFIGURANDO LA BASE DATOS
+Para que la aplicación pueda acceder a la base de datos, se debe definir los datos de acceso en el fichero "config/databases.yml" de la siguiente manera:
+En la linea que empieza por "dsn:" que debe mostrar algo con lo siguiente:
+      dsn:        mysql:dbname=BDNAME;host=HOST
+      username:   USER
+      password:   PASS
+
+Sustituir por los valores correspondientes:
+  USER: Usuario de la base de datos con permiso para acceder a la misma
+  PASS: Clave del usuario anterior
+  HOST: Nombre del equipo donde se ha creado la base de datos.
+  BDNAME: Nombre de la base de datos que hemos creado en el paso anterior
+
+En el fichero "apps/frontend/config/factories.yml" hacer lo mismo con la linea 
+      database:             mysql://USER:PASS@HOST/BDNAME
+
+
+COMPROBANDO PERMISOS
+Los directorio "log" y "cache" y sus hijos recursivamente deben de tener permisos de escritura para poder ejecutarse correctamente la aplicación.
+Compruebe que los dispone y si no es asi, deselos. 
+
+ENTRANDO EN LA APLICACIÓN
+Abrir un navegador (se aconseja utilizar el Mozilla Firefox) e introducir en la barra de direcciones la siguiente URL: 
+http://SERVIDOR/DIRECTORIODONDESEHAYAINSTALADO/web
+
+Donde SERVIDOR es el nombre del equipo donde se ha instalado ya sea este una IP o un dominio web o el equipo local (localhost) y 
+DIRECTORIODONDESEHAYAINSTALADO se refiere al nombre del directorio donde hemos copiado los fuentes de la aplicación.
+
+Lo primero que aparece es una pantalla de identificación dentro del sistema. 
+Los datos para poder entrar en la aplicación son:
+Usuario: admin
+Clave: 
+
+Se aconseja cambiar la clave del usuario las primeras veces que entre en el sistema. 
+Como datos de prueba hay creada una empresa de pruebas que si lo desea puede configurar con los datos de su empresa
+
+Si se quieres crear un VirtualHost para Apache se debe insertar en el fichero configuración (httpd.conf) unas lineas como estas;
+NameVirtualHost *:80
+<VirtualHost *:80>
+   ServerName MYSERVERNAME
+   DocumentRoot "/PATH/TO/APP/FOLDER/web"
+   DirectoryIndex index.php
+
+   <Directory "/PATH/TO/APP/FOLDER/web">
+     AllowOverride All
+     Options Indexes IncludesNOEXEC FollowSymLinks
+   </Directory>
+</VirtualHost>
+
+Donde MYSERVERNAME es el dominio o subdominio que queremos utilizar para la aplicación y  /PATH/TO/APP/FOLDER/ es la ruta completa al directorio
+del servidor web donde hemos copiado las fuentes de la aplicación.
+
+CONFIGURANDO PARA ENVIAR CORREOS
+Para que la aplicación pueda además enviar correos se deben realizar la siguiente configuración.
+Por un lado en el fichero "apps/frontend/config/app.yml" se deben configurara las siguientes líneas:
+  smtp:
+      server:             
+      port:               
+      user:               
+      password:  
+con la información del servidor SMTP genérico correspondiente para enviar mensajes por email.
+
+Además, dentro de la aplicación, en el apartado "Empresas", dentro de la configuración de la empresa correspondiente se puede configurar sus
+datos de envio correspondientes      

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Filter
+END
+Standard.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Filter/Standard.php
+END
+Compound.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/13/lib/symfony/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record/Filter/Compound.php
+END

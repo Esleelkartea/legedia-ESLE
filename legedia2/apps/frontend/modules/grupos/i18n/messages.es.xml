@@ -1,0 +1,243 @@
+<xliff version="1.0">
+  <file orginal="global" source-language="en_US" datatype="plaintext">
+    <body>
+    	<trans-unit id="1">                                                        
+         <source>abonos</source>
+         <target>Abonos</target>
+      </trans-unit>
+      <trans-unit id="2">                                                        
+         <source>accionpanel</source>
+         <target>Botones del panel</target>
+      </trans-unit>
+      <trans-unit id="3">                                                        
+         <source>albaran</source>
+         <target>Albaranes</target>
+      </trans-unit>
+      <trans-unit id="5">                                                        
+         <source>albaranprovee</source>
+         <target>Albaranes de proveedores</target>
+      </trans-unit>
+      <trans-unit id="6">                                                        
+         <source>alcance</source>
+         <target>Alcance</target>
+      </trans-unit>
+      <trans-unit id="7">                                                        
+         <source>almacenes</source>
+         <target>Almacenes</target>
+      </trans-unit>
+      <trans-unit id="8">                                                        
+         <source>backups</source>
+         <target>Copias de seguridad</target>
+      </trans-unit>
+      <trans-unit id="9">                                                        
+         <source>categoriascliente</source>
+         <target>Categorias de cliente</target>
+      </trans-unit>
+      <trans-unit id="10">                                                        
+         <source>clientes</source>
+         <target>Clientes</target>
+      </trans-unit>
+      <trans-unit id="11">                                                        
+         <source>cobro</source>
+         <target>Cobros</target>
+      </trans-unit>
+      <trans-unit id="12">                                                        
+         <source>comisionista</source>
+         <target>Comisionista</target>
+      </trans-unit>
+      <trans-unit id="13">                                                        
+         <source>compras</source>
+         <target>Compras</target>
+      </trans-unit>
+      <trans-unit id="14">                                                        
+         <source>contactocliente</source>
+         <target>Contacto cliente</target>
+      </trans-unit>
+      <trans-unit id="15">                                                        
+         <source>contactoproveedor</source>
+         <target>Contacto proveedor</target>
+      </trans-unit>
+      <trans-unit id="16">                                                        
+         <source>contactoproveedorenvase</source>
+         <target>Contacto proveedor de envases</target>
+      </trans-unit>
+      <trans-unit id="17">                                                        
+         <source>contactotransportista</source>
+         <target>Contacto transportista</target>
+      </trans-unit>
+      <trans-unit id="18">                                                        
+         <source>entradas</source>
+         <target>Entradas al almacen</target>
+      </trans-unit>
+      <trans-unit id="19">                                                        
+         <source>envases</source>
+         <target>Envases</target>
+      </trans-unit>
+      <trans-unit id="20">                                                        
+         <source>estadospedidos</source>
+         <target>Estados de los pedidos</target>
+      </trans-unit>
+      <trans-unit id="21">                                                        
+         <source>fabricante</source>
+         <target>Fabricantes de envases</target>
+      </trans-unit>
+      <trans-unit id="22">                                                        
+         <source>factura</source>
+         <target>Facturas</target>
+      </trans-unit>
+      <trans-unit id="23">                                                        
+         <source>facturaprovee</source>
+         <target>Facturas de proveedores</target>
+      </trans-unit>
+      <trans-unit id="24">                                                        
+         <source>facturatransp</source>
+         <target>Facturas de transportistas</target>
+      </trans-unit>
+      <trans-unit id="25">                                                        
+         <source>familias</source>
+         <target>Familias</target>
+      </trans-unit>
+      <trans-unit id="26">                                                        
+         <source>graficos</source>
+         <target>Graficos</target>
+      </trans-unit>
+      <trans-unit id="27">                                                        
+         <source>grupos</source>
+         <target>Grupos</target>
+      </trans-unit>
+      <trans-unit id="28">                                                        
+         <source>histalmacenes</source>
+         <target>Movimientos de almacen</target>
+      </trans-unit>
+		<trans-unit id="29">                                                        
+         <source>histpedido</source>
+         <target>Historico de pedidos</target>
+      </trans-unit>      
+      <trans-unit id="30">                                                        
+         <source>histprecios</source>
+         <target>Historico de precios</target>
+      </trans-unit>
+      <trans-unit id="31">                                                        
+         <source>lineafactura</source>
+         <target>Linea factura</target>
+      </trans-unit>
+      <trans-unit id="32">                                                        
+         <source>linea transformacion</source>
+         <target>Linea transformacion</target>
+      </trans-unit>      
+      <trans-unit id="33">                                                        
+         <source>localidad</source>
+         <target>Localidades</target>
+      </trans-unit>
+		<trans-unit id="34">                                                        
+         <source>login</source>
+         <target>Login</target>
+      </trans-unit>      
+      <trans-unit id="35">                                                        
+         <source>logusuarios</source>
+         <target>Log usuarios</target>
+      </trans-unit>
+      <trans-unit id="36">                                                        
+         <source>lotes</source>
+         <target>Lotes</target>
+      </trans-unit>
+      <trans-unit id="37">                                                        
+         <source>material</source>
+         <target>Materiales</target>
+      </trans-unit>
+		<trans-unit id="38">                                                        
+         <source>menu</source>
+         <target>Pagina de inicio</target>
+      </trans-unit>      
+		<trans-unit id="39">                                                        
+         <source>pago</source>
+         <target>Pagos</target>
+      </trans-unit>   
+      <trans-unit id="40">                                                        
+         <source>palets</source>
+         <target>Palets</target>
+      </trans-unit>
+      <trans-unit id="41">                                                        
+         <source>pedidos</source>
+         <target>Pedidos</target>
+      </trans-unit>
+      <trans-unit id="42">                                                        
+         <source>popup</source>
+         <target>Popup</target>
+      </trans-unit>
+      <trans-unit id="43">                                                        
+         <source>producto</source>
+         <target>Productos</target>
+      </trans-unit>      
+      <trans-unit id="44">                                                        
+         <source>proveedores</source>
+         <target>Proveedores de producto</target>
+      </trans-unit>
+      <trans-unit id="45">                                                        
+         <source>proveedorenvase</source>
+         <target>Proveedores de envase</target>
+      </trans-unit>
+		<trans-unit id="46">                                                        
+         <source>salidas</source>
+         <target>Salidas almacen</target>
+      </trans-unit>     
+      <trans-unit id="47">                                                        
+         <source>sesiones</source>
+         <target>Sesiones</target>
+      </trans-unit> 
+      <trans-unit id="48">                                                        
+         <source>subfamilias</source>
+         <target>Subfamilias</target>
+      </trans-unit>
+      <trans-unit id="49">                                                        
+         <source>tarifas</source>
+         <target>Tarifas</target>
+      </trans-unit>
+      <trans-unit id="50">                                                        
+         <source>tipoenvases</source>
+         <target>tipos de envase</target>
+      </trans-unit>
+      <trans-unit id="51">                                                        
+         <source>trabajador</source>
+         <target>Trabajadores</target>
+      </trans-unit>
+      <trans-unit id="52">                                                        
+         <source>transformacion</source>
+         <target>Transformaciones</target>
+      </trans-unit>
+      <trans-unit id="53">                                                        
+         <source>transportista</source>
+         <target>Transportistas</target>
+      </trans-unit>
+      <trans-unit id="54">                                                        
+         <source>usuarios</source>
+         <target>Usuarios</target>
+      </trans-unit>
+      <trans-unit id="55">                                                        
+         <source>visor acciones</source>
+         <target>Visor acciones</target>
+      </trans-unit>
+      
+      <trans-unit id="53">                                                        
+         <source>print</source>
+         <target>Imprimir</target>
+      </trans-unit>
+      <trans-unit id="54">                                                        
+         <source>bandejaentrada</source>
+         <target>Bandeja de entrada</target>
+      </trans-unit>
+      <trans-unit id="55">                                                        
+         <source>menu</source>
+         <target> </target>
+      </trans-unit>
+      <trans-unit id="56">                                                        
+         <source>edicliente</source>
+         <target>Crear</target>
+      </trans-unit>
+      <trans-unit id="57">                                                        
+         <source>ordenfabricacion</source>
+         <target>Ordenes de fabricación</target>
+      </trans-unit>
+    </body>
+	</file>
+</xliff>

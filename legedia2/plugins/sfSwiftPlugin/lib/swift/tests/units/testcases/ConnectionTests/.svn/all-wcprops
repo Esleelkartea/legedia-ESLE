@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests
+END
+TestOfConnectionRotatorPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfConnectionRotatorPlugin.php
+END
+TestOfNativeMailConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfNativeMailConnection.php
+END
+TestOfMultiConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfMultiConnection.php
+END
+TestOfRotatorConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfRotatorConnection.php
+END
+TestOfMailSendPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfMailSendPlugin.php
+END
+TestOfSendmailConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfSendmailConnection.php
+END
+TestOfSMTPConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/1/plugins/sfSwiftPlugin/lib/swift/tests/units/testcases/ConnectionTests/TestOfSMTPConnection.php
+END

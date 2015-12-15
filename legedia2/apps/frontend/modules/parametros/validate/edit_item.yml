@@ -1,0 +1,15 @@
+fillin:
+  enabled:      true
+
+fields:
+  parametro{nombre}:
+    required:
+      msg:       El elemento debe tener definido un nombre
+  parametro{numero}:
+    sfNumberValidator:
+      min:          0
+      min_error:    La cifra no puede ser negativa
+      nan_error:    Introduzca una cifra correcta
+  parametro{fecha}:
+    sfDateValidator:
+      date_error:    ha introducido una fecha incorrecta

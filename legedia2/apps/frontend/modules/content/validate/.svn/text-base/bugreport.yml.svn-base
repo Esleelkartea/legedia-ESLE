@@ -1,0 +1,17 @@
+fields:
+  "bug{name}":
+    required:
+      msg: Por favor introduzca su nombre
+  "bug{email}":
+    required:
+      msg:       Por favor introduzca su dirección de correo electrónico
+    sfEmailValidator:
+      email_error:  La dirección de correo debe ser correcta
+  "bug{url}":
+    required:
+      msg: Por favor introduzca la página donde ha experimentado el problema
+  "bug{description}":
+    required:
+      msg: Por favor introduzca una descripción del problema
+fillin:
+  enabled: true  # Enable the form repopulation

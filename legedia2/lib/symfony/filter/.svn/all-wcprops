@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/67/lib/symfony/filter
+END
+sfCommonFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/lib/symfony/filter/sfCommonFilter.class.php
+END
+sfBasicSecurityFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/lib/symfony/filter/sfBasicSecurityFilter.class.php
+END
+sfRenderingFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/1/lib/symfony/filter/sfRenderingFilter.class.php
+END
+sfFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/67/lib/symfony/filter/sfFilter.class.php
+END
+sfFilterChain.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/1/lib/symfony/filter/sfFilterChain.class.php
+END
+sfCacheFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/67/lib/symfony/filter/sfCacheFilter.class.php
+END
+sfExecutionFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repo/legedia/!svn/ver/6/lib/symfony/filter/sfExecutionFilter.class.php
+END

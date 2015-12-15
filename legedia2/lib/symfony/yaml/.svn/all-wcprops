@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repo/legedia/!svn/ver/22/lib/symfony/yaml
+END
+sfYamlDumper.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/8/lib/symfony/yaml/sfYamlDumper.class.php
+END
+sfYamlParser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/8/lib/symfony/yaml/sfYamlParser.class.php
+END
+sfYamlInline.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/8/lib/symfony/yaml/sfYamlInline.class.php
+END
+sfYaml.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/8/lib/symfony/yaml/sfYaml.class.php
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repo/legedia/!svn/ver/68/apps/frontend/lib
+END
+permisosFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/67/apps/frontend/lib/permisosFilter.class.php
+END
+Crypter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Crypter.class.php
+END
+CalendarShow.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/67/apps/frontend/lib/CalendarShow.class.php
+END
+alcanceFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/61/apps/frontend/lib/alcanceFilter.class.php
+END
+Date.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Date.class.php
+END
+CronParser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/1/apps/frontend/lib/CronParser.class.php
+END
+NeoDate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/apps/frontend/lib/NeoDate.class.php
+END
+NeofisMimeTypes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/1/apps/frontend/lib/NeofisMimeTypes.class.php
+END
+Filtros.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/1/apps/frontend/lib/Filtros.class.php
+END
+sfErrorLogger.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/68/apps/frontend/lib/sfErrorLogger.class.php
+END
+myUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/1/apps/frontend/lib/myUser.class.php
+END

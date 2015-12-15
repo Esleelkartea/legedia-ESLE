@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/treetest
+END
+runtime-conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/treetest/runtime-conf.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/treetest/build.properties
+END
+treetest-schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/projects/treetest/treetest-schema.xml
+END

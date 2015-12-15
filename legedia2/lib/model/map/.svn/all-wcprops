@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/repo/legedia/!svn/ver/78/lib/model/map
+END
+UsuarioMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/map/UsuarioMapBuilder.php
+END
+ProvinciaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/ProvinciaMapBuilder.php
+END
+ParametroMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/ParametroMapBuilder.php
+END
+EmpresaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/map/EmpresaMapBuilder.php
+END
+GrupoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/map/GrupoMapBuilder.php
+END
+DocumentoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/DocumentoMapBuilder.php
+END
+ItemMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/81/lib/model/map/ItemMapBuilder.php
+END
+CampoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/map/CampoMapBuilder.php
+END
+SesionMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/SesionMapBuilder.php
+END
+CatalogueMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/CatalogueMapBuilder.php
+END
+UsuarioGrupoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/81/lib/model/map/UsuarioGrupoMapBuilder.php
+END
+RelCampoTablaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repo/legedia/!svn/ver/81/lib/model/map/RelCampoTablaMapBuilder.php
+END
+MensajeDestinoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/81/lib/model/map/MensajeDestinoMapBuilder.php
+END
+ParametroDefMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/81/lib/model/map/ParametroDefMapBuilder.php
+END
+GrupoModuloMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/legedia/!svn/ver/81/lib/model/map/GrupoModuloMapBuilder.php
+END
+PaisesMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/PaisesMapBuilder.php
+END
+AlcanceMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/map/AlcanceMapBuilder.php
+END
+Taula1MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula1MapBuilder.php
+END
+TransUnitMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/TransUnitMapBuilder.php
+END
+Taula2MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula2MapBuilder.php
+END
+ItemBaseMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repo/legedia/!svn/ver/81/lib/model/map/ItemBaseMapBuilder.php
+END
+Taula3MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula3MapBuilder.php
+END
+Taula4MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula4MapBuilder.php
+END
+Taula5MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula5MapBuilder.php
+END
+TareaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/map/TareaMapBuilder.php
+END
+NotificacionesMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repo/legedia/!svn/ver/81/lib/model/map/NotificacionesMapBuilder.php
+END
+Taula7MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/81/lib/model/map/Taula7MapBuilder.php
+END
+SesionLogMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/SesionLogMapBuilder.php
+END
+FormularioMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/legedia/!svn/ver/81/lib/model/map/FormularioMapBuilder.php
+END
+HistoricoDocumentoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repo/legedia/!svn/ver/81/lib/model/map/HistoricoDocumentoMapBuilder.php
+END
+MensajeMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repo/legedia/!svn/ver/81/lib/model/map/MensajeMapBuilder.php
+END
+TablaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repo/legedia/!svn/ver/81/lib/model/map/TablaMapBuilder.php
+END
+EncargadoMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/81/lib/model/map/EncargadoMapBuilder.php
+END

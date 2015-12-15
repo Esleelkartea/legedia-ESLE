@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/repo/legedia/!svn/ver/67/data/sql
+END
+sqldb.map
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/repo/legedia/!svn/ver/50/data/sql/sqldb.map
+END
+lib.model.schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/57/data/sql/lib.model.schema.sql
+END
+generated-schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/50/data/sql/generated-schema.sql
+END
+lib.model.data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repo/legedia/!svn/ver/71/data/sql/lib.model.data.sql
+END
+schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repo/legedia/!svn/ver/81/data/sql/schema.sql
+END

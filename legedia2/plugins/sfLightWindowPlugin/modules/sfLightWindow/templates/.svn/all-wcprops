@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates
+END
+formSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/formSuccess.php
+END
+iframeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/iframeSuccess.php
+END
+blankSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/blankSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/indexSuccess.php
+END
+hugeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/hugeSuccess.php
+END
+wideSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/wideSuccess.php
+END
+iframeSingle.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repo/legedia/!svn/ver/1/plugins/sfLightWindowPlugin/modules/sfLightWindow/templates/iframeSingle.php
+END

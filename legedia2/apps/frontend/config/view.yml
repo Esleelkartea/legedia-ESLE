@@ -1,0 +1,18 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Legedia
+    description:  Gestion LOPG
+    keywords:     gestion, lopd
+    language:     es
+    robots:       index, follow
+
+  stylesheets:    [general, principal, formularios, tablas, botones, panel, calendario, micss, notificaciones]
+
+  #javascripts:    [jquery, jquery_form, jquery-validate/jquery_validate_pack, jquery_scrollTo, jquery_localscroll, funciones, swfobject, jquery-readonly]
+  javascripts:    [jquery, jquery_form, jquery_scrollTo, funciones, swfobject, jquery-readonly]
+
+  has_layout:     on
+  layout:         layout

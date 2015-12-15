@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om
+END
+BaseArticlePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseArticlePeer.php
+END
+BaseAuthor.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAuthor.php
+END
+BaseAttachmentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAttachmentPeer.php
+END
+BaseAuthorArticle.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAuthorArticle.php
+END
+BaseBookPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseBookPeer.php
+END
+BaseCategory.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseCategory.php
+END
+BaseAuthorPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAuthorPeer.php
+END
+BaseMovie.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseMovie.php
+END
+BaseMovieI18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseMovieI18n.php
+END
+BaseProductI18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseProductI18n.php
+END
+BaseProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseProduct.php
+END
+BaseAuthorArticlePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAuthorArticlePeer.php
+END
+BaseArticle.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseArticle.php
+END
+BaseAttachment.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseAttachment.php
+END
+BaseCategoryPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseCategoryPeer.php
+END
+BaseBook.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseBook.php
+END
+BaseMoviePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseMoviePeer.php
+END
+BaseMovieI18nPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseMovieI18nPeer.php
+END
+BaseProductI18nPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseProductI18nPeer.php
+END
+BaseProductPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/12/lib/symfony/plugins/sfPropelPlugin/test/functional/fixtures/lib/model/om/BaseProductPeer.php
+END

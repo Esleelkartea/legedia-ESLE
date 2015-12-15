@@ -1,0 +1,41 @@
+generator:
+  class:              sfAdvancedAdminGenerator
+  param:
+    model_class:      HistoricoDocumento
+    theme:            default
+    
+    fields:
+      idDocumento: {name: Documento}
+      version:  {name: Versión del documento}
+      nombre_fich:  {name: Nombre del fichero}
+      fecha: { name: Fecha de subida}
+      tamaño:  {name: Tamaño}
+      
+    list:
+       title: Historico de ficheros
+       max_per_page: 10
+       click_action: show ## Change the default hyperlink
+       filters: []
+       object_actions:
+          _edit:        ~
+          _delete:      ~
+          _show:        ~
+       actions:
+          _create:      ~
+
+    edit:
+       title: Edición de ficheros
+       actions:
+        _list:
+        _save:
+        _delete:
+        
+    create:
+      title: Creacion de ficheros
+      actions:
+        _list:
+        _save:
+        _save_and_add: ## allow to add an other book after a creatio
+    
+    show:
+      title: Datos del fichero

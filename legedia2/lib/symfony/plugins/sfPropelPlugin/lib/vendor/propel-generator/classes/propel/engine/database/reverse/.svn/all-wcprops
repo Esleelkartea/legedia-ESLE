@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/database/reverse
+END
+SchemaParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/database/reverse/SchemaParser.php
+END
+BaseSchemaParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/classes/propel/engine/database/reverse/BaseSchemaParser.php
+END

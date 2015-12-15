@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/1/plugins/sfThumbnailPlugin/lib
+END
+sfImageMagickAdapter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repo/legedia/!svn/ver/1/plugins/sfThumbnailPlugin/lib/sfImageMagickAdapter.class.php
+END
+sfThumbnail.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/plugins/sfThumbnailPlugin/lib/sfThumbnail.class.php
+END
+sfGDAdapter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repo/legedia/!svn/ver/1/plugins/sfThumbnailPlugin/lib/sfGDAdapter.class.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repo/legedia/!svn/ver/73/web/prueba/temp
+END
+user_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/73/web/prueba/temp/user_cert.pem
+END
+user_pubkey.pem
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/73/web/prueba/temp/user_pubkey.pem
+END

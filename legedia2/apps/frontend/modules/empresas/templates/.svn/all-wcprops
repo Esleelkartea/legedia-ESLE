@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/legedia/!svn/ver/67/apps/frontend/modules/empresas/templates
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_actions.php
+END
+_show_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_footer.php
+END
+_show_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_actions.php
+END
+update_select_tablasSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/update_select_tablasSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/indexSuccess.php
+END
+_list_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_messages.php
+END
+_show_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/67/apps/frontend/modules/empresas/templates/_show_form.php
+END
+_upload_imagen.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_upload_imagen.php
+END
+_edit_email_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_email_header.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/listSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_actions.php
+END
+_show_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_messages.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/67/apps/frontend/modules/empresas/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_filters.php
+END
+showSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/67/apps/frontend/modules/empresas/templates/showSuccess.php
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_td_tabular.php
+END
+_edit_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_messages.php
+END
+_edit_email_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_email_actions.php
+END
+_show_accesos_directos.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_accesos_directos.php
+END
+_show_email_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_email_config.php
+END
+_edit_email_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_email_form.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/editSuccess.php
+END
+_list_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_th_tabular.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/57/apps/frontend/modules/empresas/templates/_list_td_actions.php
+END
+_list_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_header.php
+END
+_edit_email_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_edit_email_messages.php
+END
+edit_emailSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/edit_emailSuccess.php
+END
+_show_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_show_header.php
+END
+_list_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/legedia/!svn/ver/1/apps/frontend/modules/empresas/templates/_list_footer.php
+END

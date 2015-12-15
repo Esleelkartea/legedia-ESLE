@@ -1,0 +1,111 @@
+/**
+ * Ejemplo css para sfCssTabsPlugin
+ * al estilo wordpress admin
+ *
+ * Puedes obtener mas ejemplos en:
+ * http://css.maxdesign.com.au/listamatic/index.htm
+ */
+ 
+/* pestañas principales #6da6d1;
+==============================================================================*/
+#adminmenu {
+	background: #bece9f;
+	margin: 0;
+	padding: 1px 1px 1px 1px;
+	margin-top: 5px;
+}
+
+#miadminmenu {
+	background: #A6A689;
+	border-bottom: 2px solid #909037;
+	margin-bottom: 8px;
+	margin-top: 5px;
+	padding: .3em .3em .3em 3em;
+	margin-left: 0px;
+}
+
+#adminmenu .current, #miadminmenu .current, #submenu .current {
+	font-weight: bold;
+	/*background: #FEFFBF;*/
+	background: #EEEEC5;
+  color: #000;
+}
+
+#adminmenu a {
+	color: #000;
+	font-size: 11px;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left:2px;
+	text-decoration: none;
+}
+
+#miadminmenu a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 14px;
+	padding-left: 14px;
+	margin-left:2px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#adminmenu a:hover, .current {
+	background: #EEEEC5;
+	color: #000;
+}
+
+#miadminmenu a:hover, .current {
+	background: #EEEEC5;
+	color: #000;
+}
+
+#adminmenu li, #miadminmenu li, #submenu li {
+	display: inline;
+	line-height: 200%;
+	list-style: none;
+	text-align: center;
+}
+
+/* pestañas secundarias #0d324f
+==============================================================================*/
+#submenu {
+	background: #DDD4aa; 
+	
+	
+	margin: 0;
+	padding: 1px 1px 1px 1px;
+	/*border-bottom: 2px solid #4b4b4b;
+	border-left: 2px solid #4b4b4b;
+	border-right: 2px solid #4b4b4b;*/
+}
+
+#submenu .current {
+	background: #fff;
+	/*border-top: 1px solid #045290;
+	border-right: 2px solid #045290;*/
+	color: #000;
+}
+
+#submenu a {
+	border: none;
+	color: #000;
+	font-size: 11px;
+	/*padding: .3em .4em .33em;*/
+	margin-left:3px;
+	
+	padding-right:10px;
+	padding-left:10px;
+	text-decoration:none;
+}
+
+#submenu a:hover {
+	background: #fff;
+	color: #393939;
+}
+
+#submenu li {
+	line-height: 200%;
+}

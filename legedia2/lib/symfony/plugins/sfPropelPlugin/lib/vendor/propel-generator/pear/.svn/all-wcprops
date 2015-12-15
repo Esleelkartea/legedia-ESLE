@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear
+END
+pear-propel-gen.bat
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/pear-propel-gen.bat
+END
+pear-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/pear-build.xml
+END
+BuildPropelGenPEARPackageTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/BuildPropelGenPEARPackageTask.php
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/build.properties
+END
+build-pear-package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/build-pear-package.xml
+END
+pear-propel-gen
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/lib/vendor/propel-generator/pear/pear-propel-gen
+END

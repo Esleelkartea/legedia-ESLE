@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repo/legedia/!svn/ver/11/plugins/sfWebRPCPlugin
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/1/plugins/sfWebRPCPlugin/LICENSE
+END
+README.internal
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repo/legedia/!svn/ver/1/plugins/sfWebRPCPlugin/README.internal
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repo/legedia/!svn/ver/1/plugins/sfWebRPCPlugin/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/1/plugins/sfWebRPCPlugin/README
+END

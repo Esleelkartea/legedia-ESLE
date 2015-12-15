@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repo/legedia/!svn/ver/66/apps/frontend/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repo/legedia/!svn/ver/66/apps/frontend/config/factories.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repo/legedia/!svn/ver/73/apps/frontend/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/apps/frontend/config/settings.yml
+END
+frontendConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repo/legedia/!svn/ver/66/apps/frontend/config/frontendConfiguration.class.php
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/1/apps/frontend/config/cache.yml
+END
+menu.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/66/apps/frontend/config/menu.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/1/apps/frontend/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repo/legedia/!svn/ver/1/apps/frontend/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repo/legedia/!svn/ver/1/apps/frontend/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repo/legedia/!svn/ver/66/apps/frontend/config/view.yml
+END

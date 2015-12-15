@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repo/legedia/!svn/ver/22/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts
+END
+fieldsConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/fieldsConfiguration.php
+END
+deleteAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/deleteAction.php
+END
+filtersConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/filtersConfiguration.php
+END
+processFormAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/processFormAction.php
+END
+createAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/createAction.php
+END
+indexAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/indexAction.php
+END
+filtersAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/filtersAction.php
+END
+configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/configuration.php
+END
+sortingConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/sortingConfiguration.php
+END
+batchAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/batchAction.php
+END
+updateAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/updateAction.php
+END
+paginationConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/paginationConfiguration.php
+END
+editAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/editAction.php
+END
+filterAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/filterAction.php
+END
+sortingAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repo/legedia/!svn/ver/10/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/sortingAction.php
+END
+paginationAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/paginationAction.php
+END
+newAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/newAction.php
+END
+actionsConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repo/legedia/!svn/ver/1/lib/symfony/plugins/sfPropelPlugin/data/generator/sfPropelModule/admin/parts/actionsConfiguration.php
+END
